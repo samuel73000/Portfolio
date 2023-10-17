@@ -1,6 +1,7 @@
 @import "./Variable.scss";
 @import "./Global.scss";
 @import"./Mixin.scss";
+@import"./Animation.scss";
 
 
 .container-contact{
@@ -16,7 +17,8 @@
         background-color: white;
         border: 0px;
         background-color: $main-color;
-        color: white; 
+        color: white;
+        font-weight: 700; 
         border-radius: 5px;
         width: 10%;       
         box-shadow: 5px 5px 5px black;
@@ -65,7 +67,8 @@
         background-color: white;
         border: 0px;
         background-color: $main-color;
-        color: white; 
+        color: white;
+        font-weight: 700; 
         border-radius: 5px;
         width: 10vw; 
         box-shadow: 5px 5px 5px black;

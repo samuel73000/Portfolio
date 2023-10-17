@@ -26,10 +26,12 @@
     .container-know{
         margin-right: 100px;
         width: 45%;
+        
 
         .title-know{
             @include centerAlign;
             font-size: 1.7rem;
+            margin-bottom: 25px
             
         }
 
@@ -37,13 +39,15 @@
             @include centerAlign;
             font-size: 1.4rem;
             margin-bottom: 35px;
+            font-weight: 500;
         }
 
         .btn-know{
             margin-left: 12rem;
             font-size: 1.4rem;
             background-color: $main-color;
-            color: white;   
+            color: white;
+            font-weight: 700;   
             border-radius: 5px; 
             height: 50px; 
             border: 0px;
@@ -77,7 +81,7 @@
             border-radius: 5px;
             font-weight: 600;
             color: #666;
-            box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px $main-color;
            
      
          }

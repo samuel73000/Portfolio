@@ -1,44 +1,92 @@
 @import "./Variable.scss";
 @import "./Global.scss";
 
+.container-home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20%;
+  height: 90px;
+  background: url(../Data/background.jpg) no-repeat;
+
+.social-home{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: -20vw;
+  width: 40px;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 
-.container-home{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding:20%;
-    height: 90px;
-    background:url(../Data/background.jpg) no-repeat;
-
-    
-.h1-home{
+  .h1-home {
     font-size: 70px;
     margin-bottom: 50px;
     margin-left: 20%;
-}
-.p-home{
+  }
+  .p-home {
     margin-bottom: 50px;
     margin-left: 15%;
     font-size: 30px;
-}
-.btn-home{
-   border: 0px;
-   background-color: $main-color;
-   color: white;
-   font-size: 1.4rem;
-   width: 4.5vw;
-  height: 50px;
-   margin-left: 25vw;
-   border-radius: 5px;
-   padding: 5px 24px 5px 30px;
-   box-shadow: 5px 5px 5px black;
-}
-.gif-home{
+  }
+  .btn-home {
+    border: 0px;
+    background-color: $main-color;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 4.5vw;
+    height: 50px;
+    margin-left: 25vw;
+    border-radius: 5px;
+    padding: 5px 24px 5px 30px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .gif-dev-home {
     margin-bottom: -9%;
     margin-left: 9%;
     width: 100px;
     height: 100px;
-}
-    
+  }
+
+  .content {
+    position: absolute;
+    left: 49%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+  }
+  //   flece animation
+  #more-arrows {
+    width: 75px;
+    height: 65px;
+
+    &:hover {
+      polygon {
+        fill: $main-color;
+        transition: all 0.2s ease-out;
+
+        &.arrow-bottom {
+          transform: translateY(-18px);
+        }
+
+        &.arrow-top {
+          transform: translateY(18px);
+        }
+      }
+    }
+  }
+  polygon {
+    fill: $main-color;
+    transition: all 0.2s ease-out;
+
+    &.arrow-middle {
+      opacity: 0.75;
+    }
+
+    &.arrow-top {
+      opacity: 0.5;
+    }
+  }
 }
