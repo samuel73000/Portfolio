@@ -1,0 +1,73 @@
+import "../../scss/Projects.scss";
+import ComponentProject from "../../components/Component-project";
+
+function Projects() {
+  const propsProject = {
+    img: [
+      require("../../Data/Booki.png"),
+      require("../../Data/ohmyfood.png"),
+      require("../../Data/Print-it.png"),
+      require("../../Data/kasa.png"),
+      require("../../Data/argentBank.png"),
+      require("../../Data/77.png"),
+    ],
+    title: [
+      "Booki",
+      "Oh my food",
+      "Print it",
+      "Kasa",
+      "ArgentBank",
+      "77Events",
+    ],
+    p: [
+      "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+    ],
+  };
+
+  return (
+    <section id="projects">
+      <h2 className="title-projects">PROJECTS</h2>
+      <p className="p-projects">
+        Here you will find some of the personal and clients projects that I
+        created with each project containing its own case study
+      </p>
+
+      <div className="container-projects">
+        <ComponentProject
+          img={propsProject.img[0]}
+          title={propsProject.title[0]}
+          p={propsProject.p[0]}
+        />
+        <ComponentProject
+          img={propsProject.img[1]}
+          title={propsProject.title[1]}
+          p={propsProject.p[0]}
+        />
+        <ComponentProject
+          img={propsProject.img[2]}
+          title={propsProject.title[2]}
+          p={propsProject.p[0]}
+        />
+        <ComponentProject
+          img={propsProject.img[3]}
+          title={propsProject.title[3]}
+          p={propsProject.p[0]}
+        />
+        <ComponentProject
+          img={propsProject.img[4]}
+          title={propsProject.title[4]}
+          p={propsProject.p[0]}
+        />
+        <ComponentProject
+          img={propsProject.img[5]}
+          title={propsProject.title[5]}
+          p={propsProject.p[0]}
+        />
+
+        
+      </div>
+    </section>
+  );
+}
+
+export default Projects;

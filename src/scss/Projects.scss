@@ -1,0 +1,50 @@
+@import "./Variable.scss";
+@import "./Global.scss";
+@import"./Mixin.scss";
+
+
+
+
+.title-projects{ 
+    @include centerAlign;
+    font-size: 1.7rem;
+    
+}
+
+.p-projects{
+    @include centerAlign;
+    font-size: 1.4rem;
+    margin-top: 20px
+}
+
+.container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .div-projects{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-top: 100px;
+        margin-left: 8rem;
+
+        .img-projects-1{
+            width: 20rem;
+            height: 17.5rem;
+            margin-right: 3rem;
+        }
+
+        .title-projects-1{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 1.7rem;
+
+        }
+
+        .p-projects-1{
+           font-size: 1.4rem;
+        }
+    }
+    
+}

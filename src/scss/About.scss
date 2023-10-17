@@ -1,0 +1,86 @@
+@import "./Variable.scss";
+@import "./Global.scss";
+@import"./Mixin.scss";
+
+.container-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20% 10% 20%;
+
+    .container-me{
+        margin-bottom: 50px;
+        width: 100%;
+
+        .title-me{
+            @include centerAlign;
+            font-size: 1.7rem;
+        }
+
+        .p-me{
+            @include centerAlign;
+            font-size: 1.4rem;
+            margin-top: 20px;
+            
+        }
+    }
+    .container-know{
+        margin-right: 100px;
+        width: 45%;
+
+        .title-know{
+            @include centerAlign;
+            font-size: 1.7rem;
+            
+        }
+
+        .p-know{
+            @include centerAlign;
+            font-size: 1.4rem;
+            margin-bottom: 35px;
+        }
+
+        .btn-know{
+            margin-left: 14rem;
+            font-size: 1.4rem;
+            background-color: $main-color;
+            color: white;   
+            border-radius: 5px; 
+            height: 50px; 
+            border: 0px;
+            padding: 5px 30px 5px 30px;
+            box-shadow: 5px 5px 5px black;
+        }
+
+    }
+    .container-skills{
+        width: 45%;
+
+        .title-skills{
+            @include centerAlign;
+            margin-left: -8rem;
+            font-size: 1.7rem;
+            
+        }
+         .display-skills{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 25px;
+
+        }
+        .skills{
+            @include centerAlign;
+            padding: 1rem 2rem;
+            margin-bottom: 1.5rem;
+            margin-right: 1.5rem;
+            font-size: 1.2rem;
+            background: rgba(153,153,153,.2);
+            border-radius: 5px;
+            font-weight: 600;
+            color: #666;
+            box-shadow: 5px 5px 5px black;
+           
+     
+         }
+    }
+    
+}

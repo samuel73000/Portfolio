@@ -1,0 +1,39 @@
+@import "./Variable.scss";
+@import "./Global.scss";
+@import"./Mixin.scss";
+
+
+.container-footer{
+    background-color: gray;
+    color: white;
+    padding: 60px 15% 40px 15%;
+
+    .div-1-footer{
+     width: 40%;
+
+    }
+    .div-2-footer{
+    width: 30%;
+    margin-left: 60vw;
+    position: relative;
+    top: -80px;
+    
+    .title-2-footer{
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }  
+
+     .icon-footer{
+        margin-right: 20px;
+        color: white;
+
+     }
+    }
+
+    .copyright-footer{
+        @include centerAlign;
+        font-size: 0.7rem;
+        margin-top: 20px;
+    }
+
+}

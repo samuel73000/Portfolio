@@ -1,0 +1,35 @@
+@import "./Variable.scss";
+@import "./Global.scss";
+
+
+.container-home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20%;
+    height: 90px;
+   
+.h1-home{
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.p-home{
+    margin-bottom: 50px;
+    margin-left: 15%;
+    font-size: 30px;
+}
+.btn-home{
+   border: 0px;
+   background-color: $main-color;
+   color: white;
+   font-size: 1.4rem;
+   width: 4.5vw;
+  height: 50px;
+   margin-left: 25vw;
+   border-radius: 5px;
+   padding: 5px 24px 5px 30px;
+   box-shadow: 5px 5px 5px black;
+}
+    
+}
