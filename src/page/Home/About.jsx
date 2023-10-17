@@ -32,6 +32,11 @@ function About(){
             <div className="skills">REDUX</div>
             <div className="skills">Terminal</div>
             <div className="skills">SQL Basics</div>
+            <div className="skills">Dev Tools</div>
+            <div className="skills">Jest</div>
+            <div className="skills">Vite.js</div>
+            <div className="skills">Méthode agile</div>
+            <div className="skills">Kanban</div>
             </div>
 
             </div>

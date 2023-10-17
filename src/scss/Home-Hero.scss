@@ -7,8 +7,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20%;
+    padding:20%;
     height: 90px;
+    background:url(../Data/background.jpg) no-repeat;
+
     
 .h1-home{
     font-size: 70px;
@@ -31,6 +33,12 @@
    border-radius: 5px;
    padding: 5px 24px 5px 30px;
    box-shadow: 5px 5px 5px black;
+}
+.gif-home{
+    margin-bottom: -9%;
+    margin-left: 9%;
+    width: 100px;
+    height: 100px;
 }
     
 }
