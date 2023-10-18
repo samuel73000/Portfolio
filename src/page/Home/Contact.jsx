@@ -22,7 +22,6 @@ function Contact() {
         <textarea name="message" placeholder=" Enter Your Message" className="textarea-contact" ></textarea>
 
         <button type="submit" className="btn-contact">send
-        <img src={require("../../Data/gif-send.gif")} className="gif-contact"></img>
         </button>
       </form>
     </section>

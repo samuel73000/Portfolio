@@ -41,8 +41,14 @@
     height: 50px;
     margin-left: 25vw;
     border-radius: 5px;
-    padding: 5px 24px 5px 30px;
+    padding: 5px 30px 5px 30px;
     box-shadow: 5px 5px 5px black;
+  }
+  .btn-home:hover{
+    background-color: white;
+    color: $main-color;
+    box-shadow: 0px 2px 20px 10px $main-color;
+    
   }
   .gif-dev-home {
     margin-bottom: -9%;
@@ -57,7 +63,7 @@
     top: 95%;
     transform: translate(-50%, -50%);
   }
-  //   flece animation
+  //   fleche animation
   #more-arrows {
     width: 75px;
     height: 65px;
