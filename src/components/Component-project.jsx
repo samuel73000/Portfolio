@@ -4,7 +4,7 @@ function ComponentProject(props){
 return(
 
 <div className="div-projects">
-  <a href={props.a} target="_blank" rel="noopener">
+  <a href={props.a} target="_blank" rel="noreferrer">
           <img
             src={props.img}
             className="img-projects-1"
