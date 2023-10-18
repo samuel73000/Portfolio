@@ -1,6 +1,5 @@
 import"../../scss/Home-Hero.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 function HomeHero(){
     return(
