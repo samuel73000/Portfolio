@@ -1,100 +1,93 @@
 @import "./Variable.scss";
 @import "./Global.scss";
-@import"./Mixin.scss";
+@import "./Mixin.scss";
+@import "./Animation.scss";
 
-.container-about{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5% 20% 10% 20%;
+.container-about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 20% 10% 20%;
 
-    .container-me{
-        margin-bottom: 50px;
-        width: 100%;
-
-        .title-me{
-            @include centerAlign;
-            font-size: 1.7rem;
-        }
-
-        .p-me{
-            @include centerAlign;
-            font-size: 1.4rem;
-            margin-top: 20px;
-            
-        }
+  .container-me {
+    margin-bottom: 50px;
+    width: 100%;
+    .border{
+        border-top: 2px solid black;
+        animation: progress-bar-about 4s infinite alternate ease-in-out;
     }
-    .container-know{
-        margin-right: 100px;
-        width: 45%;
-        
-
-        .title-know{
-            @include centerAlign;
-            font-size: 1.7rem;
-            margin-bottom: 25px
-            
-        }
-
-        .p-know{
-            @include centerAlign;
-            font-size: 1.4rem;
-            margin-bottom: 35px;
-            font-weight: 500;
-        }
-
-        .btn-know{
-            margin-left: 12rem;
-            font-size: 1.4rem;
-            background-color: $main-color;
-            color: white;
-            font-weight: 700;   
-            border-radius: 5px; 
-            height: 50px; 
-            border: 0px;
-            padding: 5px 30px 5px 30px;
-            box-shadow: 5px 5px 5px black;
-        }
-        .btn-know:hover{
-            @include btn-hover;
-            
-          }
-
+    .title-me {
+      @include centerAlign;
+      font-size: 1.7rem;
     }
-    .container-skills{
-        width: 45%;
 
-        .title-skills{
-            @include centerAlign;
-            margin-left: -8rem;
-            font-size: 1.7rem;
-            
-        }
-         .display-skills{
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 25px;
-
-        }
-        .skills{
-            @include centerAlign;
-            padding: 1rem 2rem;
-            margin-bottom: 1.5rem;
-            margin-right: 1.5rem;
-            font-size: 1.2rem;
-            background: rgba(153,153,153,.2);
-            border-radius: 5px;
-            font-weight: 600;
-            color: black;
-            box-shadow: 5px 5px 5px $main-color;
-           
-     
-         }
-         .skills:hover{
-            background-color: white;
-            color: $main-color;
-            box-shadow: 0px 2px 20px 10px $main-color;
-            
-          }
+    .p-me {
+      @include centerAlign;
+      font-size: 1.4rem;
+      margin-top: 20px;
     }
-    
+  }
+  .container-know {
+    margin-right: 100px;
+    width: 45%;
+
+    .title-know {
+      @include centerAlign;
+      font-size: 1.7rem;
+      margin-bottom: 25px;
+    }
+
+    .p-know {
+      @include centerAlign;
+      font-size: 1.4rem;
+      margin-bottom: 35px;
+      font-weight: 500;
+    }
+
+    .btn-know {
+      margin-left: 12rem;
+      font-size: 1.4rem;
+      background-color: $main-color;
+      color: white;
+      font-weight: 700;
+      border-radius: 5px;
+      height: 50px;
+      border: 0px;
+      padding: 5px 30px 5px 30px;
+      box-shadow: 5px 5px 5px black;
+    }
+    .btn-know:hover {
+      @include btn-hover;
+    }
+  }
+  .container-skills {
+    width: 45%;
+
+    .title-skills {
+      @include centerAlign;
+      margin-left: -8rem;
+      font-size: 1.7rem;
+    }
+    .display-skills {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    .skills {
+      @include centerAlign;
+      padding: 1rem 2rem;
+      margin-bottom: 1.5rem;
+      margin-right: 1.5rem;
+      font-size: 1.2rem;
+      background: rgba(153, 153, 153, 0.2);
+      border-radius: 5px;
+      font-weight: 600;
+      color: black;
+      box-shadow: 5px 5px 5px $main-color;
+    }
+    .skills:hover {
+      background-color: white;
+      color: $main-color;
+      box-shadow: 0px 2px 20px 10px $main-color;
+    }
+  }
 }

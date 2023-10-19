@@ -11,6 +11,10 @@
     font-size: 1.7rem;
     
 }
+    .border{
+        border-top: 2px solid black;
+        animation: progress-bar-projects 4s infinite alternate ease-in-out;
+    }
 
 .p-projects{
     @include centerAlign;
