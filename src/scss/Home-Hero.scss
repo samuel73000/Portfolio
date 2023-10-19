@@ -1,6 +1,7 @@
 @import "./Variable.scss";
 @import "./Global.scss";
 @import "./Mixin.scss";
+@import"./Animation.scss";
 
 .container-home {
   display: flex;
@@ -20,13 +21,31 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-
-  .h1-home {
-    font-size: 70px;
-    margin-bottom: 50px;
-    margin-left: 20%;
+.container-typewriter{
+  
+display: flex;
+justify-content: flex-start;
+margin-left: 20%;
+.typewriter h1{
+  letter-spacing: 2px;
+  font-size: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 3.5s steps(24);
+  }}
+  .typewriter h1::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3px;
+    background: black;
+    right: 0;
+    top: 0;
+    animation: cursor 1s infinite;
   }
+  
   .p-home {
     margin-bottom: 50px;
     margin-left: 15%;

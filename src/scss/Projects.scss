@@ -1,6 +1,7 @@
 @import "./Variable.scss";
 @import "./Global.scss";
 @import"./Mixin.scss";
+@import "./Animation.scss";
 
 
 
@@ -28,13 +29,16 @@
         width: 40%;
         margin-top: 100px;
         margin-left: 8rem;
-
-        .img-projects-1{
-            width: 20rem;
+       
+        .img-projects{
+            width: 18vw;
             height: 17.5rem;
             margin-right: 3rem;
         }
-
+        .img-projects:hover{
+        animation: coeur 1.5s infinite;
+        transition: .3s;
+        }
         .title-projects-1{
             margin-bottom: 20px;
             margin-top: 20px;
@@ -42,7 +46,7 @@
 
         }
 
-        .p-projects-1{
+        .p-projects{
            font-size: 1.4rem;
         }
     }

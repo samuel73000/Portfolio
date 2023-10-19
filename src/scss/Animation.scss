@@ -1,4 +1,4 @@
-@keyframes li-header {
+@keyframes coeur {
     0% {
         transform: scale(1);
       }
@@ -8,4 +8,24 @@
         100% {
         transform: scale(1);
       }
+}
+
+@keyframes typing{
+0%{
+  width: 0;
+}
+100%{
+  width: 100%;
+}
+}
+@keyframes cursor{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }

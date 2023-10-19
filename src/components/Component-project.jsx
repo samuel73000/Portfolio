@@ -4,15 +4,15 @@ function ComponentProject(props){
 return(
 
 <div className="div-projects">
-  <a href={props.a} target="_blank" rel="noreferrer">
+  <a href={props.a} target="_blank" rel="noreferrer" >
           <img
             src={props.img}
-            className="img-projects-1"
+            className="img-projects"
             alt="screen projects"
           /></a>
           <div>
             <h3 className="title-projects-1">{props.title}</h3>
-            <p className="p-projects-1">
+            <p className="p-projects">
               {props.p}
             </p>
           </div>
