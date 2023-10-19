@@ -75,13 +75,13 @@ Cette section a été déplacée ici : [https://facebook.github.io/create-react-
 
 ## Présentation
 
-Vous pouvez consulter mon portfolio en direct [ici](lien-vers-votre-portfolio).
+Vous pouvez consulter mon portfolio en direct [ici](https://portfolio-pouard-samuel.netlify.app/).
 
 ## Technologies utilisées
 
 - React
 - SCSS
-- (Listez ici les autres technologies que vous utilisez)
+- javascript
 
 N'hésitez pas à explorer le code source pour en savoir plus sur moi, mes projets et mes compétences. Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter.
 
