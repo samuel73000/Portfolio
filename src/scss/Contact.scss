@@ -10,6 +10,8 @@
     background:url(../Data/background.jpg) no-repeat;
     padding-top: 100px;
     padding-bottom: 150px;
+     
+    
     
     .modal-contact{
         margin-left: 45vw;
@@ -22,6 +24,7 @@
         border-radius: 5px;
         width: 10%;       
         box-shadow: 5px 5px 5px black;
+        
     }
     .modal-contact:hover{
         @include btn-hover;
@@ -37,13 +40,15 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    margin-left: 34vw;
+    margin-left: 32vw;
     margin-top: 30px;
     width: 40rem;
     box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
     border-radius: 5px;
     padding: 5px 30px 30px 30px;
-
+    animation: contact 1s;
+    transform-origin: top;
+    transition: all 0.6s ease-out;
     
     .label-contact{
         margin-top: 20px;
@@ -76,10 +81,10 @@
         border-radius: 5px;
         width: 10vw; 
         box-shadow: 5px 5px 5px black;
+        transition: all 0.6s ease-out;
     }
     .btn-contact:hover{
         @include btn-hover;
-        
       }
 
 

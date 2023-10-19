@@ -38,8 +38,7 @@ function Projects() {
       <h2 className="title-projects">PROJECTS</h2>
       <div className="border"></div>
       <p className="p-projects">
-        Here you will find some of the personal and clients projects that I
-        created with each project containing its own case study
+      Here, you will find some of my personal projects and those completed for my OpenClassrooms training
       </p>
 
       <div className="container-projects">

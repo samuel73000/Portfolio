@@ -48,3 +48,12 @@
     transform: scaleX(0.8);
   }
 }
+
+@keyframes contact{
+  0%{
+   transform: scaleY(0);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}

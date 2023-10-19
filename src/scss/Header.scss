@@ -1,48 +1,45 @@
 @import "./Variable.scss";
 @import "./Global.scss";
-@import"./Animation.scss";
-.container-header{
-    display: flex;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 2px;
-    // position: fixed;
-    width: 100%;
-.container-logo{
+@import "./Animation.scss";
+.container-header {
+  display: flex;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  // position: fixed;
+  width: 100%;
+  .container-logo {
     width: 50%;
     display: flex;
     gap: 12%;
-    .header-logo{
-        height: 45px;
-        width: 45px;
-        border-radius: 25px;
-        margin-left: 80%;
-        position: relative;
-        top: -12%
-    };
-    .header-p{
-        font-size: 20px;
-        color: white;
-        font-weight: 500;
+    .header-logo {
+      height: 45px;
+      width: 45px;
+      border-radius: 25px;
+      margin-left: 80%;
+      position: relative;
+      top: -12%;
     }
-}
-.container-nav{
+    .header-p {
+      font-size: 20px;
+      color: white;
+      font-weight: 500;
+    }
+  }
+  .container-nav {
     display: flex;
     width: 50%;
     gap: 12%;
     margin-left: 50%;
-    .header-li{
-        font-size: 20px;
-        color: white;
-        font-weight: 500;
-        
-        
+    .header-li {
+      font-size: 20px;
+      color: white;
+      font-weight: 500;
     }
-    .header-li:hover{
-        color: $main-color;
-        animation: coeur 1s infinite;
-        transition: .3s;
-        
+    .header-li:hover {
+      color: $main-color;
+      animation: coeur 1s infinite;
+      transition: 0.3s;
     }
-}
+  }
 }
