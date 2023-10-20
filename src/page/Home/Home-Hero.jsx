@@ -1,6 +1,7 @@
 import "../../scss/Home-Hero.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import TypewriterComponent from "typewriter-effect";
 
 function HomeHero() {
   return (
@@ -10,33 +11,55 @@ function HomeHero() {
         className="gif-dev-home"
         alt="gif d'un dev"
       ></img>
-      <div className="container-typewriter">
-      <div className="typewriter">
-      <h1>HEY, I'M POUARD SAMUEL.</h1>
-      </div></div>
+      <div>
+        <h1 aria-label="HEY" className="h1-home">
+          <TypewriterComponent
+            options={{ loop: true }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("HEY, I'M POUARD SAMUEL.")
+                .pauseFor(2500)
+                .deleteAll();
+              typewriter
+                .typeString("Front-End React Developer.")
+                .pauseFor(2500)
+                .deleteAll();
+              typewriter
+                .typeString("Located in the city of Lyon, France.")
+                .pauseFor(2500)
+                .deleteAll();
+              typewriter
+                .typeString("Scroll to see my projects.")
+                .pauseFor(2500)
+                .deleteAll()
+                .start();
+            }}
+          />
+        </h1>
+      </div>
       <p className="p-home">
         A Frontend focused Web Developer building the Frontend of Websites and
         Web Applications that leads to the success of the overall product
       </p>
       <div className="btn-container-home">
-      <a
-        href="https://www.linkedin.com/in/samuel-pouard-645672184/"
-        target="_blank"
-        rel="noreferrer"
-        className="btn-home"
-      >
-        <FontAwesomeIcon icon={faLinkedin} size="2xl" className="icon-home" />
-        Linkedin
-      </a>
-      <a
-        href="https://github.com/samuel73000"
-        target="_blank"
-        rel="noreferrer"
-        className="btn-home"
-      >
-        <FontAwesomeIcon icon={faGithub} size="2xl" className="icon-home" />
-        GitHub
-      </a>
+        <a
+          href="https://www.linkedin.com/in/samuel-pouard-645672184/"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-home"
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="2xl" className="icon-home" />
+          Linkedin
+        </a>
+        <a
+          href="https://github.com/samuel73000"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-home"
+        >
+          <FontAwesomeIcon icon={faGithub} size="2xl" className="icon-home" />
+          GitHub
+        </a>
       </div>
       <div class="content">
         <a href="#about">

@@ -39,18 +39,13 @@ function About() {
           <div className="skills">JavaScript</div>
           <div className="skills">React</div>
           <div className="skills">SASS</div>
-          <div className="skills">GIT</div>
           <div className="skills">GitHub</div>
-          <div className="skills">Responsive Design</div>
           <div className="skills">SEO</div>
           <div className="skills">REDUX</div>
-          <div className="skills">Terminal</div>
-          <div className="skills">SQL Basics</div>
-          <div className="skills">Dev Tools</div>
-          <div className="skills">Jest</div>
+          <div className="skills">MySql</div>
           <div className="skills">Vite.js</div>
-          <div className="skills">Méthode agile</div>
-          <div className="skills">Kanban</div>
+          <div className="skills">Figma</div>
+          <div className="skills">Jest</div>
         </div>
       </div>
     </section>
