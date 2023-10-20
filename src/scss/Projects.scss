@@ -1,72 +1,139 @@
 @import "./Variable.scss";
 @import "./Global.scss";
-@import"./Mixin.scss";
+@import "./Mixin.scss";
 @import "./Animation.scss";
 
+.title-projects {
+  @include centerAlign;
+  font-size: 1.7rem;
+}
+.border {
+  border-top: 2px solid black;
+  animation: progress-bar-projects 4s infinite alternate ease-in-out;
+}
 
+.p-projects {
+  @include centerAlign;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
 
-.container-title-proects{
+.container-projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .div-projects {
     display: flex;
-    
-    .git-projects{
-     margin-top: 25px;
-     margin-left: 5%;
-     color: black;
-     transition: all 0.5s;
-    }
-    .git-projects:hover{
-        color: $main-color;
-        
-    }
-    
-}
-
-.title-projects{ 
-    @include centerAlign;
-    font-size: 1.7rem;
-    
-}
-    .border{
-        border-top: 2px solid black;
-        animation: progress-bar-projects 4s infinite alternate ease-in-out;
-    }
-
-.p-projects{
-    @include centerAlign;
-    font-size: 1.4rem;
-    margin-top: 20px
-}
-
-.container-projects{
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 8rem;
 
-    .div-projects{
-        display: flex;
-        flex-direction: row;
-        width: 40%;
-        margin-top: 100px;
-        margin-left: 8rem;
-       
-        .img-projects{
-            width: 18vw;
-            height: 17.5rem;
-            margin-right: 3rem;
-        }
-        .img-projects:hover{
-        animation: coeur 1.5s infinite;
-        transition: .3s;
-        }
-        .title-projects-1{
-            margin-top: 20px;
-            font-size: 1.7rem;
-
-        }
-
-        .p-projects{
-           font-size: 1.4rem;
-        }
+    .img-projects {
+      width: 18vw;
+      height: 17.5rem;
+      margin-right: 3rem;
     }
-   
+    .img-projects:hover {
+      animation: coeur 1.5s infinite;
+      transition: 0.3s;
+    }
+    .title-article-projects {
+      margin-top: 20px;
+      font-size: 1.7rem;
+    }
+    .p-article-projects {
+      font-size: 1.4rem;
+    }
+  }
+}
+.plus-projects {
+  font-size: 1.4rem;
+  margin-top: 25px;
+  margin-left: 28%;
+  color: white;
+  transition: all 0.5s;
+  background-color: $main-color;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 5px 5px 5px black;
+  padding: 2.5px 15px 2.5px 15px;
+}
+.plus-projects:hover {
+  @include btn-hover;
+}
+
+//   !!!!!!!!!!!!!!!!!!!!!!MODAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.modal-projects {
+  display: block;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  color: white;
+  overflow-y: auto;
+  justify-content: center;
+}
+.container-title-modal {
+  padding-left: 10%;
+  padding-right: 10%;
+  .title-modal {
+    margin-top: 30px;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .p-modal {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+}
+.container-btn-modal {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-right: 10px;
+
+  .btn-modal {
+    font-size: 1rem;
+    background-color: $main-color;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 30px;
+    border: 0px;
+    padding: 5px 15px 2px 15px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.6s ease-out;
+  }
+  .btn-modal:hover {
+    @include btn-hover;
+  }
+}
+.container-close-modal {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .close-modal {
+    font-size: 1.4rem;
+    background-color: $main-color;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 40px;
+    border: 0px;
+    padding: 2px 15px 4px 15px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.6s ease-out;
+  }
+  .close-modal:hover {
+    @include btn-hover;
+  }
 }
