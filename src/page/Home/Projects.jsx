@@ -51,6 +51,15 @@ function Projects() {
       "https://github.com/samuel73000/ArgentBank",
       "https://github.com/samuel73000/724events",
     ],
+    tech:[
+      require("../../Data/tech/html.png"),
+      require("../../Data/tech/css.png"),
+      require("../../Data/tech/js.png"),
+      require("../../Data/tech/React.png"),
+      require("../../Data/tech/sass.png"),
+      require("../../Data/tech/jest.png"),
+      require("../../Data/tech/redux.png")
+    ]
   };
 
   return (
@@ -70,6 +79,8 @@ function Projects() {
           a={propsProject.a[0]}
           descriptionModal={propsProject.descriptionModal[0]}
           git={propsProject.git[0]}
+          tech1={propsProject.tech[0]}
+          tech2={propsProject.tech[1]}
         />
 
         <ComponentProject
@@ -79,6 +90,8 @@ function Projects() {
           a={propsProject.a[1]}
           descriptionModal={propsProject.descriptionModal[1]}
           git={propsProject.git[1]}
+          tech1={propsProject.tech[0]}
+          tech2={propsProject.tech[4]}
         />
 
         <ComponentProject
@@ -88,6 +101,9 @@ function Projects() {
           a={propsProject.a[2]}
           descriptionModal={propsProject.descriptionModal[2]}
           git={propsProject.git[2]}
+          tech1={propsProject.tech[0]}
+          tech2={propsProject.tech[1]}
+          tech3={propsProject.tech[2]}
         />
 
         <ComponentProject
@@ -97,6 +113,8 @@ function Projects() {
           a={propsProject.a[3]}
           descriptionModal={propsProject.descriptionModal[3]}
           git={propsProject.git[3]}
+          tech1={propsProject.tech[3]}
+          tech2={propsProject.tech[4]}
         />
 
         <ComponentProject
@@ -106,6 +124,9 @@ function Projects() {
           a={propsProject.a[4]}
           descriptionModal={propsProject.descriptionModal[4]}
           git={propsProject.git[4]}
+          tech1={propsProject.tech[3]}
+          tech2={propsProject.tech[4]}
+          tech3={propsProject.tech[6]}
         />
 
         <ComponentProject
@@ -115,6 +136,9 @@ function Projects() {
           a={propsProject.a[5]}
           descriptionModal={propsProject.descriptionModal[5]}
           git={propsProject.git[5]}
+          tech1={propsProject.tech[3]}
+          tech2={propsProject.tech[4]}
+          tech3={propsProject.tech[5]}
         />
       </div>
     </section>

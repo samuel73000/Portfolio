@@ -30,6 +30,11 @@ function ComponentProject(props) {
             <h3 className="title-modal">{props.title}</h3>
             <p className="p-modal">{props.descriptionModal}</p>
           </div>
+          <div className="container-tech-modal">
+          <img src={props.tech1} />
+          <img src={props.tech2} />
+          <img src={props.tech3} />
+          </div>
           <div className="container-btn-modal">
             <a
               href={props.git}
