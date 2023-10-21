@@ -72,30 +72,33 @@
 .modal-projects {
   display: block;
   position: fixed;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: auto;
+  top: 0%;
+  right: 0%; 
+  width: 50%; 
+  height: 100vh; 
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
   color: white;
-  overflow-y: auto;
   justify-content: center;
+  overflow: hidden;
 }
+
 .container-title-modal {
-  padding-left: 5%;
-  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2%;
+  text-align: center;
   .title-modal {
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 1.9rem;
-    display: flex;
-    justify-content: center;
     font-weight: 700;
+    
   }
-  .banner-modal{
+  .banner-modal {
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 35%;
     width: 30%;
     height: 150px;
   }
@@ -103,21 +106,23 @@
     margin-top: 20px;
     font-size: 1.4rem;
     margin-bottom: 20px;
+    
   }
 }
 .container-tech-modal{
   display: flex;
   gap: 10px;
-  margin-left: 5%;
+  margin-top: -35%;
+  margin-left: 2%;
     width: 50px;
     height: 50px;
-  
+    margin-bottom: 50px;
 }
 .container-btn-modal {
   display: flex;
+  gap: 5%;
+  align-items: center;
   justify-content: center;
-  gap: 2%;
-  margin-right: 10px;
 
   .btn-modal {
     font-size: 1rem;
@@ -140,6 +145,8 @@
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: 2%;
+  margin-top: 2%;
   .close-modal {
     font-size: 1.4rem;
     background-color: $main-color;
