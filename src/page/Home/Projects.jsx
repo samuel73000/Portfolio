@@ -1,7 +1,10 @@
 import "../../scss/Projects.scss";
 import ComponentProject from "../../components/Component-project";
 
+
 function Projects() {
+  
+
   const propsProject = {
     img: [
       require("../../Data/Booki.png"),
@@ -79,7 +82,7 @@ function Projects() {
     banner:[
       require("../../Data/banner/banner_booki.png"),
       require("../../Data/banner/banner_ohmyfood.png"),
-      require("../../Data/banner/banner-print.jpg"),
+      require("../../Data/banner/banner-print.png"),
       require("../../Data/banner/banner_kasa.png"),
       require("../../Data/banner/banner_argent.png"),
       require("../../Data/banner/banner-724.png"),
@@ -94,7 +97,7 @@ function Projects() {
         Here, you will find some of my personal projects and those completed for
         my OpenClassrooms training
       </p>
-
+      
       <div className="container-projects">
         <ComponentProject
           img={propsProject.img[0]}

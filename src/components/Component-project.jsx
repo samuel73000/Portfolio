@@ -7,7 +7,14 @@ function ComponentProject(props) {
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
+    if (isOpen) {
+      document.body.classList.remove('modal-open');
+    } else {
+      document.body.classList.add('modal-open');
+    }
   };
+  
+  
 
   return (
     <div className="div-projects">
