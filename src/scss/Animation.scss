@@ -11,25 +11,6 @@
 }
 
 
-  @keyframes progress-bar-about{
-    0%{
-      transform: scaleX(0.1);
-      // opacity: 0;
-    }
-    100%{
-      transform: scaleX(1);
-    }
-}
-@keyframes progress-bar-projects{
-  0%{
-    transform: scaleX(0.06);
-    // opacity: 0;
-  }
-  100%{
-    transform: scaleX(0.8);
-  }
-}
-
 @keyframes contact{
   0%{
    transform: scaleY(0);
@@ -38,3 +19,4 @@
     transform: scaleY(1);
   }
 }
+

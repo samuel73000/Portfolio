@@ -55,7 +55,6 @@ function Projects() {
 
   return (
     <section id="projects">
-      <div className="border"></div>
       <h2 className="title-projects">PROJECTS</h2>
       <div className="border"></div>
       <p className="p-projects">

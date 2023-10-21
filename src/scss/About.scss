@@ -12,8 +12,11 @@
     margin-bottom: 50px;
     width: 100%;
     .border{
-        border-top: 2px solid black;
-        animation: progress-bar-about 4s infinite alternate ease-in-out;
+     margin-left: 28.2vw;
+     margin-top: 1vw;
+        border-top: 7px solid $main-color;
+        border-radius: 5px;
+        width: 3.2vw;
     }
     .title-me {
       @include centerAlign;

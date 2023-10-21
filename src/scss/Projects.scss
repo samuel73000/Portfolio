@@ -8,8 +8,12 @@
   font-size: 1.7rem;
 }
 .border {
-  border-top: 2px solid black;
-  animation: progress-bar-projects 4s infinite alternate ease-in-out;
+  
+  margin-left: 47.9vw;
+     margin-top: 1vw;
+        border-top: 7px solid $main-color;
+        border-radius: 5px;
+        width: 3.5vw;
 }
 
 .p-projects {

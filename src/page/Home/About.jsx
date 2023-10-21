@@ -3,7 +3,7 @@ function About() {
   return (
     <section className="container-about" id="about">
       <div className="container-me">
-        <div className="border"></div>
+        
         <h2 className="title-me">ABOUT ME</h2>
         <div className="border"></div>
         <p className=" p-me">
