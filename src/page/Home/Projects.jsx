@@ -59,7 +59,15 @@ function Projects() {
       require("../../Data/tech/sass.png"),
       require("../../Data/tech/jest.png"),
       require("../../Data/tech/redux.png")
-    ]
+    ],
+    banner:[
+      require("../../Data/banner/banner_booki.png"),
+      require("../../Data/banner/banner_ohmyfood.png"),
+      require("../../Data/banner/banner-print.jpg"),
+      require("../../Data/banner/banner_kasa.png"),
+      require("../../Data/banner/banner_argent.png"),
+      require("../../Data/banner/banner-724.png"),
+    ],
   };
 
   return (
@@ -81,6 +89,7 @@ function Projects() {
           git={propsProject.git[0]}
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[1]}
+          banner={propsProject.banner[0]}
         />
 
         <ComponentProject
@@ -92,6 +101,7 @@ function Projects() {
           git={propsProject.git[1]}
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[4]}
+          banner={propsProject.banner[1]}
         />
 
         <ComponentProject
@@ -104,6 +114,7 @@ function Projects() {
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[1]}
           tech3={propsProject.tech[2]}
+          banner={propsProject.banner[2]}
         />
 
         <ComponentProject
@@ -115,6 +126,7 @@ function Projects() {
           git={propsProject.git[3]}
           tech1={propsProject.tech[3]}
           tech2={propsProject.tech[4]}
+          banner={propsProject.banner[3]}
         />
 
         <ComponentProject
@@ -127,6 +139,7 @@ function Projects() {
           tech1={propsProject.tech[3]}
           tech2={propsProject.tech[4]}
           tech3={propsProject.tech[6]}
+          banner={propsProject.banner[4]}
         />
 
         <ComponentProject
@@ -139,6 +152,7 @@ function Projects() {
           tech1={propsProject.tech[3]}
           tech2={propsProject.tech[4]}
           tech3={propsProject.tech[5]}
+          banner={propsProject.banner[5]}
         />
       </div>
     </section>

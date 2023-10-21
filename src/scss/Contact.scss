@@ -49,6 +49,7 @@
     animation: contact 1s;
     transform-origin: top;
     transition: all 0.6s ease-out;
+   
     
     .label-contact{
         margin-top: 20px;
@@ -87,5 +88,5 @@
         @include btn-hover;
       }
 
-
+      
 }

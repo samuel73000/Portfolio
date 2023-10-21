@@ -3,10 +3,13 @@ import { useState } from "react";
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <section className="container-contact" id="contact">
-      <button className="modal-contact" onClick={() => setIsOpen(!isOpen)}>
+      <button className="modal-contact" onClick={toggleModal}>
         CONTACT
       </button>
       <p className="p-contact">
