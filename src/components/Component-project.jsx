@@ -26,15 +26,22 @@ function ComponentProject(props) {
 
       {isOpen && (
         <div className="modal-projects">
+          <div className="container-close-modal">
+            <button onClick={toggleModal} className="close-modal">
+              X
+            </button>
+          </div>
           <div className="container-title-modal">
             <h3 className="title-modal">{props.title}</h3>
             <img src={props.banner} className="banner-modal" alt="banner"/>
             <p className="p-modal">{props.descriptionModal}</p>
           </div>
           <div className="container-tech-modal">
+            
           <img src={props.tech1} alt="logo"/>
           <img src={props.tech2} alt="logo"/>
           <img src={props.tech3} alt="logo" />
+         
           </div>
           <div className="container-btn-modal">
             <a
@@ -53,11 +60,6 @@ function ComponentProject(props) {
             >
               Website
             </a>
-          </div>
-          <div className="container-close-modal">
-            <button onClick={toggleModal} className="close-modal">
-              Close
-            </button>
           </div>
         </div>
       )}
