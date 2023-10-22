@@ -6,6 +6,7 @@ function Contact() {
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
+  
 
   return (
     <section className="container-contact" id="contact">
@@ -19,6 +20,8 @@ function Contact() {
 
       {isOpen && (
         <form name="contact" method="post" className="form-contact">
+
+
           <input type="hidden" name="form-name" value="contact" />
 
           <label for="name" className="label-contact">

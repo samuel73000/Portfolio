@@ -1,32 +1,44 @@
 @keyframes coeur {
-    0% {
-        transform: scale(1);
-      }
-      70% {
-        transform: scale(.9);
-      }
-        100% {
-        transform: scale(1);
-      }
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-
-@keyframes contact{
-  0%{
-   transform: scaleY(0);
+@keyframes contact {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
   }
-  100%{
+  100% {
+    opacity: 1;
     transform: scaleY(1);
   }
 }
 
-
-@keyframes modalprojects{
-  0%{
-   transform: scaleX(0);
+@keyframes modalprojects {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
   }
-  100%{
+  100% {
+    opacity: 1;
     transform: scaleX(1);
+  }
+}
+@keyframes modalprojectsclose {
+  0% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(0);
   }
 }
 

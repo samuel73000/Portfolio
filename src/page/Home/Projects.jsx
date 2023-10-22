@@ -41,26 +41,26 @@ function Projects() {
     presentation: [
       "Booki is a web project aimed at simplifying the search for accommodations and activities in the user's chosen city. My role as a Front-End developer was to take the mockups provided by the UI designer and integrate them using HTML and CSS.",
       "OhMyFood is a restaurant startup that aims to develop a website listing menus from gourmet restaurants. My role as a developer was to create the website while adhering to the mockups provided by the UX design team.",
-      "Print-it is a web project I completed during my web integration training at OpenClassrooms. Designed to enhance my JavaScript programming skills, this fictitious site represents a significant milestone in my journey. Using HTML, CSS, and JavaScript, I created an interactive experience for users, engaging and involving them. This endeavor helped refine my web integration skills while exploring the power of JavaScript. Print-it embodies my commitment to continuous learning and growth as a web developer. It symbolizes the successful fusion of technology and user-centered design, a crucial skill in the field of web integration",
+      "I worked as a front-end developer on the Print-it project, which involved a complete website redesign, including the homepage slider.",
       "I worked as a front-end developer on the Kasa project, which involved a complete redesign of the website, including a transition from ASP.NET to a modern JavaScript stack. My role was to design a web platform using React for the front-end and Node.js for the backend, following mockups provided by the designer.",
       "As a front-end developer at Argent Bank, my primary mission was to create a user dashboard with an authentication system using React and Redux. This task involved migrating an existing website from HTML/CSS to this new platform.",
-      "724events is a website that I designed as part of my web integration training at OpenClassrooms. Developed using React and SCSS, this interactive site had the primary objective of introducing me to the Jest tool for unit testing. It showcases my React development skills while ensuring code quality through the implementation of unit tests with Jest. This project provided me with the opportunity to delve deeply into debugging and testing, two essential skills for ensuring the proper functioning of applications. As a developer, I tackled the challenges of debugging, tracking down bugs, and ensuring the site operates optimally. Furthermore, I learned to create rigorous unit tests with Jest to enhance the application's reliability. 724events illustrates my commitment to mastering React development while emphasizing code quality through rigorous testing. It reflects my evolution as a developer, capable of creating high-quality interactive applications while being confident in the robustness of my code.",
+      "724events est un site web qui compile tous les événements créés par l'entreprise 724events. Il présente l'équipe de 724events et offre ses services aux particuliers en utilisant un formulaire de contact",
     ],
     client:[
       "Company looking to develop a website for accommodation and activity search.",
       "Restaurant startup",
-      "",
+      "Printing company",
       "A startup specialized in peer-to-peer apartment rentals.",
       "Online bank looking to expand in the banking sector.",
-      "",
+      "An event planning company",
     ] ,
     objectives:[
       "The main challenge was to make the project compatible with various screen sizes while adhering to the design specifications. I used flexbox to create a responsive layout, ensuring a consistent user experience across all devices. I worked closely with the designers to seamlessly integrate visual elements into the layout, thus ensuring both an aesthetic and functional presentation on large desktop screens, tablets, and smartphones",
       "The project was designed with a 'mobile-first' approach, meaning I prioritized optimizing the user experience on mobile devices. This strategy ensures that users have a smooth and responsive experience regardless of the device they are using, from smartphones to desktop computers. Additionally, to make the site even more appealing, I integrated smooth and natural animations. These animations were carefully crafted to enhance the site's interactivity, providing visitors with an engaging and immersive experience",
-      "",
+      "The objective was to modernize the existing platform using JavaScript to optimize the user experience across various screen sizes. I enhanced the site's interactivity by integrating a slider with active bullet points and text corresponding to the displayed image",
       "The objective was to modernize the existing platform using React to optimize the user experience across various screen sizes. I enhanced the site's interactivity by integrating CSS animations while introducing advanced elements, such as creating a carousel to display property images, implementing a collapse feature to improve UX, and dynamically managing property listings based on internal data. Additionally, I used Sass to enhance style management.",
       "En tant que membre de l'équipe Argent Bank, j'ai joué un rôle central dans la mise en place de l'authentification utilisateur avec JWT (JSON Web Tokens) et Axios pour des appels API sécurisés. J'ai également dirigé la gestion des données via Redux, en permettant notamment aux utilisateurs de récupérer leurs informations en se connectant mais également pouvoir en modifier certaines s'ils le souhaitent. L'utilisation de Swagger a facilité la conception et la documentation des API, accélérant le développement de nouvelles fonctionnalités et renforçant la sécurité, les performances et l'expérience utilisateur dans l'application Argent Bank. Mon rôle comprenait aussi la définition des routes pour les transactions dans l'éditeur de Swagger, ce qui impliquait de choisir les méthodes HTTP appropriées, telles que GET, PUT ou DELETE, pour simplifier leur gestion future. J'ai également contribué au Green Code en optimisant les images pour améliorer les performances de l'application et en créant des composants réutilisables pour favoriser les bonnes pratiques de développement.",
-      "",
+      "The objective was to fix the various bugs that the website had by creating unit tests and using existing tests to identify and correct the bugs. I familiarized myself with Jest",
     ] ,
     git: [
       "https://github.com/samuel73000/booki",
@@ -132,7 +132,9 @@ function Projects() {
           title={propsProject.title[2]}
           p={propsProject.p[2]}
           a={propsProject.a[2]}
+          client={propsProject.client[2]}
           presentation={propsProject.presentation[2]}
+          objectives={propsProject.objectives[2]}
           git={propsProject.git[2]}
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[1]}
@@ -174,7 +176,9 @@ function Projects() {
           title={propsProject.title[5]}
           p={propsProject.p[5]}
           a={propsProject.a[5]}
+          client={propsProject.client[5]}
           presentation={propsProject.presentation[5]}
+          objectives={propsProject.objectives[5]}
           git={propsProject.git[5]}
           tech1={propsProject.tech[3]}
           tech2={propsProject.tech[4]}
