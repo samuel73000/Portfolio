@@ -98,21 +98,3 @@
   }
 }
 
-.scroll-to-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 12px;
-  background-color: $main-color;
-  color: #fff;
-  border: none;
-  border-radius: 100%;
-  cursor: pointer;
-  animation: ScrollTop 1.5s ease-in-out;
-  transform-origin: bottom;
-}
-
-.scroll-to-top.visible {
-  display: block;
-}

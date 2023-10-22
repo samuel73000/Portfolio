@@ -2,8 +2,34 @@ import "../../scss/Home-Hero.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import TypewriterComponent from "typewriter-effect";
-
+import React, { useState, useEffect, useRef } from "react";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 function HomeHero() {
+  const [showButton, setShowButton] = useState(false);
+  const homeHeroRef = useRef();
+
+  const handleScroll = () => {
+    if (
+      homeHeroRef.current &&
+      window.pageYOffset > homeHeroRef.current.offsetTop
+    ) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <section className="container-home">
       <img
@@ -79,6 +105,13 @@ function HomeHero() {
           </svg>
         </a>
       </div>
+      <div ref={homeHeroRef}></div>{" "}
+      <button
+        onClick={scrollToTop}
+        className={`scroll-to-top ${showButton ? "visible" : ""}`}
+      >
+        <FontAwesomeIcon icon={faChevronUp} size="xl" />
+      </button>
     </section>
   );
 }
