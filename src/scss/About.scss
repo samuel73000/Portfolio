@@ -32,6 +32,8 @@
   .container-know {
     margin-right: 100px;
     width: 45%;
+    position: relative;
+    
 
     .title-know {
       @include centerAlign;
@@ -63,9 +65,13 @@
       @include btn-hover;
     }
   }
+  .container-know.animate {
+    animation: animAboutKnow 2s ease-in-out;
+  }
   .container-skills {
     width: 45%;
-
+    position: relative;
+    
     .title-skills {
       @include centerAlign;
       margin-left: -8rem;
@@ -95,6 +101,9 @@
       box-shadow: 0px 2px 20px 10px $main-color;
       background-image: url(../Asset/background.jpg);
     }
+  }
+  .container-skills.animate {
+    animation: animAboutSkill 2s ease-in-out;
   }
 }
 

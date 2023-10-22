@@ -52,3 +52,31 @@
     margin-bottom: 0%;
   }
 }
+@keyframes animBtnHome{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes animAboutKnow{
+  0% {
+    opacity: 0;
+    right: 30%;
+  }
+  100% {
+    opacity: 1;
+    right: 0%;
+  }
+}
+@keyframes animAboutSkill{
+  0% {
+    opacity: 0;
+    left: 30%;
+  }
+  100% {
+    opacity: 1;
+    left: 0%;
+  }
+}
