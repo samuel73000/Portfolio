@@ -5,7 +5,7 @@ function Header() {
       <nav className="container-header">
       <div className="container-logo">
         <a href="#home">
-          <img src={require("../../Data/gif-header.gif")} alt="Logo" className="header-logo"/>
+          <img src={require("../../Asset/gif-header.gif")} alt="Logo" className="header-logo"/>
           </a>
         <p className="header-p">Pouard Samuel</p>
         </div>

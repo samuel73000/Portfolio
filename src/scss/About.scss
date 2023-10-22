@@ -11,12 +11,12 @@
   .container-me {
     margin-bottom: 50px;
     width: 100%;
-    .border{
-     margin-left: 28.2vw;
-     margin-top: 1vw;
-        border-top: 7px solid $main-color;
-        border-radius: 5px;
-        width: 3.2vw;
+    .border {
+      margin-left: 28.2vw;
+      margin-top: 1vw;
+      border-top: 7px solid $main-color;
+      border-radius: 5px;
+      width: 3.2vw;
     }
     .title-me {
       @include centerAlign;
@@ -93,7 +93,26 @@
       background-color: white;
       color: $main-color;
       box-shadow: 0px 2px 20px 10px $main-color;
-      background-image: url(../Data/background.jpg);
+      background-image: url(../Asset/background.jpg);
     }
   }
+}
+
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background-color: $main-color;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  animation: ScrollTop 1.5s ease-in-out;
+  transform-origin: bottom;
+}
+
+.scroll-to-top.visible {
+  display: block;
 }

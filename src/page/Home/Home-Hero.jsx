@@ -7,7 +7,7 @@ function HomeHero() {
   return (
     <section className="container-home">
       <img
-        src={require("../../Data/gif-dev.gif")}
+        src={require("../../Asset/gif-dev.gif")}
         className="gif-dev-home"
         alt="gif d'un dev"
       ></img>
