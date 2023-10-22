@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function ComponentProject(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ function ComponentProject(props) {
         <div className="modal-projects">
           <div className="container-close-modal">
             <button onClick={toggleModal} className="close-modal">
-              X
+            <FontAwesomeIcon icon={faXmark} />
             </button>
           </div>
           <div className="container-title-modal">
