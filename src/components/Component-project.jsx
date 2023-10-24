@@ -10,11 +10,11 @@ function ComponentProject(props) {
   const toggleModal = () => {
     if (isOpen) {
       document.body.classList.remove("modal-open");
-      setClosingAnimation(true); 
+      setClosingAnimation(true);
       setTimeout(() => {
-        setIsOpen(false); 
-        setClosingAnimation(false); 
-      }, 500); 
+        setIsOpen(false);
+        setClosingAnimation(false);
+      }, 500);
     } else {
       document.body.classList.add("modal-open");
       setIsOpen(true);
@@ -23,7 +23,7 @@ function ComponentProject(props) {
 
   return (
     <div className="div-projects">
-      <a href={props.a} target="_blank" rel="noreferrer">
+      <a className="btn-modal-projects" onClick={toggleModal}>
         <img src={props.img} className="img-projects" alt="screen projects" />
       </a>
 
@@ -31,9 +31,6 @@ function ComponentProject(props) {
         <h3 className="title-article-projects">{props.title}</h3>
 
         <p className="p-article-projects">{props.p}</p>
-        <button className="plus-projects" onClick={toggleModal}>
-          Learn more
-        </button>
       </div>
 
       {isOpen && (
