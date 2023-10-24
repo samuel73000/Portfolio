@@ -27,6 +27,8 @@
       @include centerAlign;
       font-size: 1.4rem;
       margin-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      
     }
   }
   .container-know {
@@ -45,7 +47,7 @@
       @include centerAlign;
       font-size: 1.4rem;
       margin-bottom: 35px;
-      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
     }
 
     .btn-know {
@@ -58,7 +60,7 @@
       height: 50px;
       border: 0px;
       padding: 5px 30px 5px 30px;
-      box-shadow: 5px 5px 5px black;
+      box-shadow: 3px 3px 3px black;
       transition: all 0.6s ease-out;
     }
     .btn-know:hover {
@@ -88,17 +90,18 @@
       margin-bottom: 1.5rem;
       margin-right: 1.5rem;
       font-size: 1.2rem;
+      font-family: 'Roboto', sans-serif;
       background: rgba(153, 153, 153, 0.2);
       border-radius: 5px;
       font-weight: 600;
       color: black;
-      box-shadow: 5px 5px 5px $main-color;
+      box-shadow: 3px 3px 3px $main-color;
       transition: all 0.5s ease-out;
     }
     .skills:hover {
       background-color: white;
       color: $main-color;
-      box-shadow: 0px 2px 20px 10px $main-color;
+      box-shadow: 0px 2px 20px 3px $main-color;
       background-image: url(../Asset/background.jpg);
     }
   }
