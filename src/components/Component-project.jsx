@@ -23,7 +23,7 @@ function ComponentProject(props) {
 
   return (
     <div className="div-projects">
-      <a href ="javascript:void(0);"className="btn-modal-projects" onClick={toggleModal}>
+      <a href ="#"className="btn-modal-projects" onClick={toggleModal}>
         <img src={props.img} className="img-projects" alt="screen projects" />
       </a>
 
