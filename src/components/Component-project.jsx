@@ -47,9 +47,9 @@ function ComponentProject(props) {
           <div className="container-title-modal">
             <h3 className="title-modal">{props.title}</h3>
             <img src={props.banner} className="banner-modal" alt="banner" />
-            <p className="p-modal">Client : {props.client}</p>
-            <p className="p-modal">Presentation : {props.presentation}</p>
-            <p className="p-modal">Objectives : {props.objectives}</p>
+            <p className="p-modal"><b>Client :</b> {props.client}</p>
+            <p className="p-modal"><b>Presentation :</b> {props.presentation}</p>
+            <p className="p-modal"><b>Objectives :</b> {props.objectives}</p>
           </div>
           <div className="container-tech-modal">
             <img src={props.tech1} alt="logo" />
