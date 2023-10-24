@@ -33,13 +33,14 @@
       color: white;
       font-weight: 700;
       font-size: 1rem;
-      width: 4.6vw;
+      width: 100px;
       height: 30px;
       border-radius: 5px;
       padding: 5px 30px 5px 30px;
       box-shadow: 3px 3px 3px black;
       transition: all 0.6s ease-out;
       animation: animBtnHome 2.5s ease-in-out;
+      
     }
     .icon-home {
       margin-right: 5px;
@@ -48,52 +49,15 @@
       @include btn-hover;
     }
   }
+
   .gif-dev-home {
-    margin-bottom: -8%;
+    margin-bottom: -10%;
     margin-left: 9%;
     width: 100px;
     height: 100px;
   }
-
-  .content {
-    position: absolute;
-    left: 50%;
-    top: 95%;
-    transform: translate(-50%, -50%);
-  }
-  //   fleche animation
-  #more-arrows {
-    width: 75px;
-    height: 65px;
-
-    &:hover {
-      polygon {
-        fill: $main-color;
-        transition: all 0.2s ease-out;
-
-        &.arrow-bottom {
-          transform: translateY(-18px);
-        }
-
-        &.arrow-top {
-          transform: translateY(18px);
-        }
-      }
-    }
-  }
-  polygon {
-    fill: $main-color;
-    transition: all 0.2s ease-out;
-
-    &.arrow-middle {
-      opacity: 0.75;
-    }
-
-    &.arrow-top {
-      opacity: 0.5;
-    }
-  }
 }
+//BTN SCROLL
 .scroll-to-top {
   display: none;
   position: fixed;
@@ -112,3 +76,39 @@
 .scroll-to-top.visible {
   display: block;
 }
+@media (max-width: 1024px ) { 
+  .container-home {
+    padding: 20%;
+    height: 90px;
+  
+    .h1-home {
+      font-size: 2rem;
+      margin-left: 20%;
+    }
+  
+    .p-home {
+      font-size: 1.3rem;
+    }
+    .btn-container-home {
+      .btn-home {
+        font-size: 1rem;
+        width: 80px;
+        padding: 5px 10px 5px 10px;
+      }
+      .icon-home {
+        font-size: 1rem;
+        margin-right: 5px;
+        margin-bottom: 3px;
+      }
+    }
+  
+    .gif-dev-home {
+      width: 70px;
+      height: 70px;
+    margin-left: 4%;
+    }
+  }
+}
+
+
+@media (max-width: 768px ) { }

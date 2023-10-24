@@ -6,13 +6,13 @@
 .container-about {
   display: flex;
   flex-wrap: wrap;
-  margin: 5% 20% 10% 20%;
+  margin: 5% 10% 10% 10%;
 
   .container-me {
     margin-bottom: 50px;
     width: 100%;
     .border {
-      margin-left: 28.2vw;
+      margin-left: 38vw;
       margin-top: 1vw;
       border-top: 7px solid $main-color;
       border-radius: 5px;
@@ -25,7 +25,7 @@
 
     .p-me {
       @include centerAlign;
-      font-size: 1.4rem;
+      font-size: 1.25rem;
       margin-top: 20px;
       font-family: 'Roboto', sans-serif;
       
@@ -33,7 +33,7 @@
   }
   .container-know {
     margin-right: 100px;
-    width: 45%;
+    width: 42%;
     position: relative;
     
 
@@ -51,7 +51,7 @@
     }
 
     .btn-know {
-      margin-left: 12rem;
+      margin-left: 13vw;
       font-size: 1.4rem;
       background-color: $main-color;
       color: white;
@@ -71,7 +71,7 @@
     animation: animAboutKnow 2s ease-in-out;
   }
   .container-skills {
-    width: 45%;
+    width: 42%;
     position: relative;
     
     .title-skills {
@@ -110,3 +110,50 @@
   }
 }
 
+@media (max-width: 1024px ) {
+
+  .container-about {
+    flex-wrap: wrap;
+    margin: 5% 5% 10% 5%;
+    .container-me {
+      margin-bottom: 50px;
+      .border {
+        margin-left: 43.5vw;
+      }
+      .p-me {
+        font-size: 1.35rem;
+      }
+    }
+    .container-know { 
+      .title-know {
+        font-size: 1.5rem;
+      }
+      .p-know {
+        font-size: 1.2rem;
+      }
+  
+      .btn-know {
+        height: 50px;
+        padding: 5px 30px 5px 30px;
+      }
+    }
+    .container-skills {
+      position: relative;
+      
+      .title-skills {
+        font-size: 1.5rem;
+      }
+      .skills {
+        padding: 1rem 2rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.1rem;
+      }
+      
+    }
+   
+  }
+ }
+
+
+@media (max-width: 768px ) { }

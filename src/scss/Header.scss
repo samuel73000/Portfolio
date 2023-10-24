@@ -6,8 +6,6 @@
   background-color: black;
   padding-top: 20px;
   padding-bottom: 2px;
-  // position: fixed;
-  width: 100%;
   .container-logo {
     width: 50%;
     display: flex;
@@ -16,7 +14,7 @@
       height: 45px;
       width: 45px;
       border-radius: 25px;
-      margin-left: 80%;
+      margin-left: 2vw;
       position: relative;
       top: -12%;
     }
@@ -30,7 +28,7 @@
     display: flex;
     width: 50%;
     gap: 12%;
-    margin-left: 50%;
+    margin-left: 50vw;
     .header-li {
       font-size: 20px;
       color: white;
@@ -43,3 +41,20 @@
     }
   }
 }
+@media (max-width: 1024px ) { 
+  .container-header {
+    .container-logo {
+      gap: 5%;
+      .header-logo {
+        margin-left: 2vw;
+      }
+    }
+    .container-nav {
+      gap: 8%;
+      margin-left: 20vw;
+    }
+  }
+}
+
+
+@media (max-width: 768px ) { }

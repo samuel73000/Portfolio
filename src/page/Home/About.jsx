@@ -3,11 +3,11 @@ import { useInView } from "react-intersection-observer";
 import "../../scss/About.scss";
 function About() {
   const [refKnow, inViewKnow] = useInView({
-    triggerOnce: true, 
+    triggerOnce: true,
   });
 
   const [refSkills, inViewSkills] = useInView({
-    triggerOnce: true, 
+    triggerOnce: true,
   });
   return (
     <section className="container-about" id="about">
@@ -25,16 +25,17 @@ function About() {
       >
         <h3 className="title-know">Get to know me!</h3>
         <p className="p-know">
-          I'm a Frontend Web Developer building the Front-end of Websites and
-          Web Applications that leads to the success of the overall product.
-          Check out some of my work in the Projects section. I also like sharing
-          content related to the stuff that I have learned over the years in Web
-          Development so it can help other people of the Dev Community. Feel
-          free to Connect or Follow me on my Linkedin where I post useful
-          content related to Web Development and Programming I'm open to Job
-          opportunities where I can contribute, learn and grow. If you have a
-          good opportunity that matches my skills and experience then don't
-          hesitate to contact me.
+          I am a web development enthusiast based in Lyon, aged 24. Trained at
+          OpenClassrooms, I have gained strong skills in programming, modern web
+          frameworks, and technologies, enabling me to create attractive and
+          functional websites. My goal? To continue learning and evolving in
+          this ever-changing field. I aspire to design exceptional online
+          experiences to help businesses achieve their digital objectives. If
+          you share my passion for web development or would like to learn more
+          about my work, please don't hesitate to contact me. I am open to
+          collaboration and networking opportunities, and I would be delighted
+          to discuss exciting web-related projects. Thank you for visiting my
+          portfolio.
         </p>
         <a className="btn-know" href="#contact">
           CONTACT
@@ -60,8 +61,6 @@ function About() {
           <div className="skills">Jest</div>
         </div>
       </div>
-      
-      
     </section>
   );
 }

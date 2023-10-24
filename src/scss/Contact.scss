@@ -1,94 +1,142 @@
 @import "./Variable.scss";
 @import "./Global.scss";
-@import"./Mixin.scss";
-@import"./Animation.scss";
+@import "./Mixin.scss";
+@import "./Animation.scss";
 
+.container-contact {
+     display: block;
+  margin-top: 100px;
+  background: url(../Asset/background.jpg) no-repeat;
+  padding-top: 100px;
+  padding-bottom: 150px;
 
-.container-contact{
-    margin-top: 100px;
-    display: block;
-    background:url(../Asset/background.jpg) no-repeat;
-    padding-top: 100px;
-    padding-bottom: 150px;
-     
-    
-    
-    .modal-contact{
-        margin-left: 45vw;
-        font-size: 1.7rem;
-        background-color: white;
-        border: 0px;
-        background-color: $main-color;
-        color: white;
-        font-weight: 700; 
-        border-radius: 5px;
-        width: 10%;       
-        box-shadow: 3px 3px 3px black;
-        
-    }
-    .modal-contact:hover{
-        @include btn-hover;
-        
-      }
-    .p-contact{
-        margin-top: 20px;
-        margin-left: 25vw;
-        font-size: 1.4rem;
-        font-family: 'Roboto', sans-serif;
-    }
+  .modal-contact {
+    margin-left: 45vw;
+    font-size: 1.7rem;
+    background-color: white;
+    border: 0px;
+    background-color: $main-color;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 10%;
+    box-shadow: 3px 3px 3px black;
+
+  }
+  .modal-contact:hover {
+    @include btn-hover;
+  }
+  .p-contact {
+    margin-top: 20px;
+    margin-left: 25vw;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
-.form-contact{
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    margin-left: 32vw;
-    margin-top: 30px;
-    width: 40rem;
-    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+.form-contact {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32vw;
+  margin-top: 30px;
+  width: 35vw;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  border-radius: 5px;
+  padding: 5px 30px 30px 30px;
+  animation: contact 1s ease-in-out;
+  transform-origin: top;
+  transition: all 0.6s ease-in-out;
+
+  .label-contact {
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+
+  .input-contact {
+    background-color: rgb(216, 216, 216);
+    height: 50px;
     border-radius: 5px;
+    font-size: 1.4rem;
+    border: solid 1px rgb(216, 216, 216);
+  }
+  .textarea-contact {
+    background-color: rgb(216, 216, 216);
+    height: 250px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    border: solid 1px rgb(216, 216, 216);
+  }
+  .btn-contact {
+    margin-top: 20px;
+    margin-left: 23.5vw;
+    font-size: 1.7rem;
+    background-color: white;
+    border: 0px;
+    background-color: $main-color;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 10vw;
+    box-shadow: 3px 3px 3px black;
+    transition: all 0.6s ease-out;
+  }
+  .btn-contact:hover {
+    @include btn-hover;
+  }
+}
+@media (max-width: 1024px) {
+  .container-contact {
+    margin-top: 100px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+    .modal-contact {
+      margin-left: 45vw;
+      font-size: 1.2rem;
+      border: 0px;
+      font-weight: 700;
+      border-radius: 5px;
+      width: 10%;
+    }
+
+    .p-contact {
+      margin-top: 20px;
+      margin-left: 10vw;
+      font-size: 1.4rem;
+    }
+  }
+
+  .form-contact {
+    flex-direction: column;
+    margin-left: 23vw;
+    margin-top: 30px;
+    width: 50vw;
+
     padding: 5px 30px 30px 30px;
-    animation: contact 1s ease-in-out;
-    transform-origin: top;
-    transition: all 0.6s ease-in-out;
-    
-    
-    .label-contact{
-        margin-top: 20px;
-        font-size: 1.4rem;
+
+    .label-contact {
+      margin-top: 20px;
+      font-size: 1.4rem;
     }
 
-    .input-contact{
-        background-color: rgb(216, 216, 216);
-        height: 50px;
-        border-radius: 5px;
-        font-size: 1.4rem;
-        border: solid 1px rgb(216, 216, 216);
+    .input-contact {
+      height: 50px;
+      border-radius: 5px;
+      font-size: 1.4rem;
     }
-    .textarea-contact{
-        background-color: rgb(216, 216, 216);
-        height: 250px;
-        border-radius: 5px;
-        font-size: 1.4rem;
-        border: solid 1px rgb(216, 216, 216);
+    .textarea-contact {
+      height: 250px;
+      border-radius: 5px;
+      font-size: 1.4rem;
     }
-    .btn-contact{
-        margin-top: 20px;
-        margin-left: 23.5vw;
-        font-size: 1.7rem;
-        background-color: white;
-        border: 0px;
-        background-color: $main-color;
-        color: white;
-        font-weight: 700; 
-        border-radius: 5px;
-        width: 10vw; 
-        box-shadow: 3px 3px 3px black;
-        transition: all 0.6s ease-out;
+    .btn-contact {
+      margin-left: 40vw;
+      font-size: 1.2rem;
     }
-    .btn-contact:hover{
-        @include btn-hover;
-      }
+  }
+}
 
-      
+@media (max-width: 768px) {
 }
