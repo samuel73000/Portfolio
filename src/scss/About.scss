@@ -118,7 +118,8 @@
     .container-me {
       margin-bottom: 50px;
       .border {
-        margin-left: 43.5vw;
+        width: 5vw;
+        margin-left: 42vw;
       }
       .p-me {
         font-size: 1.35rem;
@@ -134,7 +135,7 @@
   
       .btn-know {
         height: 50px;
-        padding: 5px 30px 5px 30px;
+        padding: 5px 20px 5px 20px;
       }
     }
     .container-skills {
@@ -144,10 +145,11 @@
         font-size: 1.5rem;
       }
       .skills {
-        padding: 1rem 2rem;
+        padding: 0.9rem 0.7rem;
         margin-bottom: 1.5rem;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
         font-size: 1.1rem;
+        font-weight: 500;
       }
       
     }
@@ -156,4 +158,61 @@
  }
 
 
-@media (max-width: 768px ) { }
+@media (max-width: 768px ) {
+
+  .container-about {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5% 5% 10% 5%;
+    .container-me {
+      margin-bottom: 50px;
+      .border {
+        width: 7vw;
+        margin-left: 40vw;
+      }
+      .title-me {
+        font-size: 1rem;
+      }
+      .p-me {
+        font-size: 0.8rem;
+        
+      }
+    }
+    .container-know { 
+      width: 100%;
+      .title-know {
+        font-size: 1rem;
+      }
+      .p-know {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+      }
+  
+      .btn-know {
+        margin-left: 33vw;
+        height: 20px;
+        font-size: 0.8rem;
+        padding: 5px 20px 5px 20px;
+      }
+    }
+    .container-skills {
+      margin-top: 50px;
+      width: 100%;
+      position: relative;
+     margin-left: 6%;
+      
+      .title-skills {
+        margin-left: -2.5rem;
+        font-size: 1rem;
+      }
+      .skills {
+        padding: 0.8rem 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1.1rem;
+        font-size: 0.8rem;
+      }
+      
+    }
+   
+  }
+ }

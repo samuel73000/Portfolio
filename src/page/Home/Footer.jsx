@@ -6,8 +6,8 @@ function Footer() {
   return (
     <section className="container-footer">
       <div className="div-1-footer">
-        <h2>Pouard Samuel</h2>
-        <p>
+        <h2 className="title-1-footer">Pouard Samuel</h2>
+        <p className="p-1-footer">
           A Frontend focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product
         </p>

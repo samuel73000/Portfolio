@@ -19,7 +19,7 @@
     color: white;
     font-weight: 500;
     border-radius: 5px;
-    width: 10%;
+    width: 120px;
     box-shadow: 3px 3px 3px black;
 
   }
@@ -96,7 +96,6 @@
       margin-left: 45vw;
       font-size: 1.2rem;
       border: 0px;
-      font-weight: 700;
       border-radius: 5px;
       width: 10%;
     }
@@ -139,4 +138,48 @@
 }
 
 @media (max-width: 768px) {
+  .container-contact {
+    margin-top: 100px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+    .modal-contact {
+      margin-left: 42vw;
+      font-size: 0.8rem;
+      border-radius: 5px;
+      width: 60px;
+    }
+
+    .p-contact {
+      margin-top: 20px;
+      margin-left: 10vw;
+      font-size: 0.8rem;
+    }
+  }
+
+  .form-contact {
+    margin-left: 15vw;
+    padding: 5px 20px 20px 20px;
+    width: 60vw;
+    .label-contact {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+
+    .input-contact {
+      height: 50px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+    }
+    .textarea-contact {
+      height: 250px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+    }
+    .btn-contact {
+      margin-left: 49vw;
+      font-size: 1rem;
+    }
+  }
 }

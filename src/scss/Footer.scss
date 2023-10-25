@@ -1,44 +1,114 @@
 @import "./Variable.scss";
 @import "./Global.scss";
-@import"./Mixin.scss";
+@import "./Mixin.scss";
 
+.container-footer {
+  background-color: black;
+  color: white;
+  padding: 60px 15% 40px 15%;
 
-.container-footer{
-    background-color: black;
-    color: white;
-    padding: 60px 15% 40px 15%;
-   
-
-    .div-1-footer{
-     width: 40%;
-
-    }
-    .div-2-footer{
+  .div-1-footer {
+    width: 40%;
+  }
+  .div-2-footer {
     width: 30%;
     margin-left: 60vw;
     position: relative;
     top: -80px;
+
+    .title-2-footer {
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+    }
+
+    .icon-footer {
+      margin-right: 20px;
+      color: white;
+    }
+  }
+
+  .copyright-footer {
+    @include centerAlign;
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1024px ) {
+    .container-footer {
+        padding: 30px 10% 20px 10%;
     
-    .title-2-footer{
+        .div-1-footer {
+          width: 40%;
+        }
+        .title-1-footer{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            
+        }
+        .p-1-footer{
+            font-size: 1rem;
+        }
+        .div-2-footer {
+          width: 40%;
+          margin-left: 60vw;
+          position: relative;
+          top: -148px;
+    
+          .title-2-footer {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+          }
+    
+          .icon-footer {
+            margin-right: 20px;
+          }
+        }
+    
+        .copyright-footer {
+          font-size: 0.7rem;
+          margin-top: 20px;
+        }
+      }
+
+ }
+
+@media (max-width: 768px) {
+  .container-footer {
+    padding: 30px 10% 20px 10%;
+
+    .div-1-footer {
+      width: 40%;
+    }
+    .title-1-footer{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        
+    }
+    .p-1-footer{
+        font-size: 0.8rem;
+    }
+    .div-2-footer {
+      width: 40%;
+      margin-left: 60vw;
+      position: relative;
+      top: -175px;
+
+      .title-2-footer {
+        font-size: 1rem;
         margin-bottom: 15px;
         letter-spacing: 2px;
-    }  
+      }
 
-     .icon-footer{
+      .icon-footer {
+        font-size: 0.9rem;
         margin-right: 20px;
-        color: white;
-
-     }
+      }
     }
 
-    .copyright-footer{
-        @include centerAlign;
-        font-size: 0.7rem;
-        margin-top: 20px;
+    .copyright-footer {
+      font-size: 0.7rem;
+      margin-top: 20px;
     }
-
+  }
 }
-@media (max-width: 1024px ) { }
-
-
-@media (max-width: 768px ) { }

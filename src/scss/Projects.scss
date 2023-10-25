@@ -216,4 +216,103 @@
  }
 
 
-@media (max-width: 768px ) { }
+@media (max-width: 768px ) { 
+
+
+  .title-projects {
+    font-size: 1rem;
+  }
+  .border {
+    margin-left: 43.2vw;
+    width: 9vw;
+  }
+  
+  .p-projects {
+    font-size: 0.8rem;
+    margin-left: 70px;
+    margin-right: 40px;
+  }
+  
+  .container-projects {
+    flex-direction: column;
+  
+    .div-projects {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin-top: 50px;
+      margin-left: 3rem;
+      .img-projects {
+        width: 55vw;
+        height: 11rem;
+        margin-left: 10vw;
+      }
+      
+      .title-article-projects {
+        font-size: 1rem;
+        margin-bottom: 5px;
+      }
+      .p-article-projects {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
+  //   !!!!!!!!!!!!!!!!!!!!!!MODAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  
+  .modal-projects {
+    width: 80%;
+  }
+  
+    .close-modal {
+      font-size: 1rem;
+      height: 10px;
+      padding: 1px 8px 1px 8px;
+    }
+    
+  
+  .container-title-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 2%;
+    text-align: center;
+    .title-modal {
+      margin-top: -30px;
+      font-size: 1.2rem;
+    }
+    .banner-modal {
+      height: 100px;
+    }
+    .p-modal {
+      margin-top: 10px;
+      font-size: 0.8rem;
+      margin-bottom: 0px;
+    }
+  }
+  .container-tech-modal {
+    left: 30%;
+    top: -7%;
+    width: 50px;
+    height: 30px;
+  }
+  .container-btn-modal {
+    display: flex;
+    justify-content: flex-end;
+    top: -3%;
+    right: 15%;
+    gap: 10%;
+    margin-right: 5%;
+  
+    .btn-modal {
+      font-size: 0.8rem;
+      font-weight: 700;
+      height: 22px;
+      border: 0px;
+      padding: 5px 10px 2px 10px;
+
+      
+    }
+  }
+}
