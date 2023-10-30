@@ -4,6 +4,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import TypewriterComponent from "typewriter-effect";
 import React, { useState, useEffect, useRef } from "react";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { flushSync } from "react-dom";
 function HomeHero() {
   const [showButton, setShowButton] = useState(false);
   const homeHeroRef = useRef();
@@ -40,9 +41,10 @@ function HomeHero() {
       <div>
         <h1 aria-label="HEY" className="h1-home">
           <TypewriterComponent
-            options={{ loop: true }}
+            options={{ autoStart:true }}
             onInit={(typewriter) => {
               typewriter
+              .start()
                 .typeString("HEY, I'M POUARD SAMUEL.")
                 .pauseFor(2500)
                 .deleteAll();
@@ -58,7 +60,9 @@ function HomeHero() {
                 .typeString("Scroll to see my projects.")
                 .pauseFor(2500)
                 .deleteAll()
-                .start();
+                typewriter
+                .typeString("HEY, I'M POUARD SAMUEL.")
+                .pauseFor(2500)
             }}
           />
         </h1>

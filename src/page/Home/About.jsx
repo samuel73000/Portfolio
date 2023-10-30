@@ -55,7 +55,7 @@ function About() {
           <div className="skills">GitHub</div>
           <div className="skills">SEO</div>
           <div className="skills">REDUX</div>
-          <div className="skills">MySql</div>
+          <div className="skills">MongoDB</div>
           <div className="skills">Vite.js</div>
           <div className="skills">Figma</div>
           <div className="skills">Jest</div>
