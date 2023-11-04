@@ -68,7 +68,7 @@
   position: fixed;
   top: 0%;
   right: 0%;
-  width: 50%;
+  width: 60%;
   height: 100vh;
   background-color: white;
   z-index: 1000;
@@ -116,15 +116,15 @@
     font-weight: 700;
   }
   .banner-modal {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 60%;
     height: 200px;
   }
   .p-modal {
-    margin-top: 20px;
+    margin-top: 2%;
     font-size: 1.3rem;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     font-family: "Roboto", sans-serif;
   }
 }
@@ -132,9 +132,9 @@
   display: flex;
   justify-content: flex-start;
   position: relative;
-  top: 15%;
+  bottom:16%;
   gap: 10px;
-  margin-top: -30%;
+  
   width: 50px;
   height: 50px;
 }
@@ -142,7 +142,7 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-  top: 10%;
+  bottom: 21%;
   gap: 5%;
   margin-right: 5%;
 
@@ -208,10 +208,10 @@
     width: 80%;
   }
   .container-tech-modal {
-    top: 5%;
+    bottom: 16%;
   }
   .container-btn-modal {
-    top: 0%;
+    bottom: 20%;
   }
  }
 
@@ -292,18 +292,15 @@
     }
   }
   .container-tech-modal {
-    left: 30%;
-    top: -7%;
+    left:4%;
     width: 50px;
     height: 30px;
+    bottom: 25%;
   }
   .container-btn-modal {
-    display: flex;
-    justify-content: flex-end;
-    top: -3%;
-    right: 15%;
+    justify-content: center;
     gap: 10%;
-    margin-right: 5%;
+    margin-right: 0%;
   
     .btn-modal {
       font-size: 0.8rem;

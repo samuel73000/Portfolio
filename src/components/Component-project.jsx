@@ -16,10 +16,19 @@ function ComponentProject(props) {
         setClosingAnimation(false);
       }, 500);
     } else {
+      // Fermez toutes les autres modals ouvertes en itérant sur les composants parent
+      const modals = document.querySelectorAll(".modal-projects");
+      modals.forEach((modal) => {
+        modal.classList.remove("modal-close-animation");
+        modal.style.display = "none";
+      });
+
+      // Ajoutez la classe "modal-open" au corps
       document.body.classList.add("modal-open");
       setIsOpen(true);
     }
   };
+  
 
   return (
     <div className="div-projects">
