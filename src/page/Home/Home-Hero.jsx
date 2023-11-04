@@ -4,7 +4,6 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import TypewriterComponent from "typewriter-effect";
 import React, { useState, useEffect, useRef } from "react";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import { flushSync } from "react-dom";
 function HomeHero() {
   const [showButton, setShowButton] = useState(false);
   const homeHeroRef = useRef();
