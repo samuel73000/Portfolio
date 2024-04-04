@@ -11,10 +11,12 @@
     width: 40%;
   }
   .div-2-footer {
-    width: 30%;
+    width: 10%;
     margin-left: 60vw;
-    position: relative;
-    top: -80px;
+    margin-top: -90px;
+    position: absolute;
+
+
 
     .title-2-footer {
       margin-bottom: 15px;
@@ -24,6 +26,10 @@
     .icon-footer {
       margin-right: 20px;
       color: white;
+    }
+    .icon-footer-img{
+      position: absolute;
+      width: 100px
     }
   }
 
@@ -49,12 +55,7 @@
             font-size: 1rem;
         }
         .div-2-footer {
-          width: 40%;
-          margin-left: 60vw;
-          position: relative;
-          top: -148px;
-          left: -20px;
-    
+         width: 20%;
           .title-2-footer {
             font-size: 1.5rem;
             margin-bottom: 15px;
@@ -90,10 +91,9 @@
         font-size: 0.8rem;
     }
     .div-2-footer {
-      width: 40%;
-      margin-left: 60vw;
-      position: relative;
-      // top: -175px;
+      width: 100px;
+      margin-left: 55vw;
+      margin-top: -100px;
 
       .title-2-footer {
         font-size: 1rem;
@@ -104,6 +104,13 @@
       .icon-footer {
         font-size: 0.9rem;
         margin-right: 20px;
+      }
+      .icon-footer-img{
+        width: 60px;
+        height: 15px;
+  position: absolute;
+  top: 80px;
+  right: 35%;
       }
     }
 

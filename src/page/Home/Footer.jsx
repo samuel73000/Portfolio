@@ -30,9 +30,17 @@ function Footer() {
         >
           <FontAwesomeIcon icon={faGithub} size="2xl" />
         </a>
+        <a 
+        href="https://www.malt.fr/profile/yousam"
+        target="_blank"
+        rel="noreferrer"
+        className="icon-footert"
+        >
+          <img src={require("../../Asset/malt_logo_white.png")} alt="logomalt" className="icon-footer-img" />
+        </a>
       </div>
       <p className="copyright-footer">
-        © Copyright 2023. Made by Pouard Samuel
+        © Copyright 2024. Made by Pouard Samuel
       </p>
     </section>
   );
