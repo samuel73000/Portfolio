@@ -31,6 +31,9 @@ a {
   margin-right: 20px;
   color: white;
 }
+.container-footer .div-2-footer .icon-footer:hover {
+  filter: grayscale(100%) sepia(100%) hue-rotate(180deg) saturate(300%) brightness(0.5);
+}
 .container-footer .div-2-footer .icon-footer-img {
   position: absolute;
   width: 100px;

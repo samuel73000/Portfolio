@@ -15,7 +15,7 @@ function Footer() {
       <div className="div-2-footer">
         <h2 className="title-2-footer">SOCIAL</h2>
         <a
-          href="https://www.linkedin.com/in/samuel-pouard-645672184/"
+          href="https://www.linkedin.com/in/samuel-p-645672184/"
           target="_blank"
           rel="noreferrer"
           className="icon-footer"
@@ -34,7 +34,7 @@ function Footer() {
         href="https://www.malt.fr/profile/yousam"
         target="_blank"
         rel="noreferrer"
-        className="icon-footert"
+        className="icon-footer"
         >
           <img src={require("../../Asset/malt_logo_white.png")} alt="logomalt" className="icon-footer-img" />
         </a>

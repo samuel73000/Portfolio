@@ -27,6 +27,9 @@
       margin-right: 20px;
       color: white;
     }
+    .icon-footer:hover{
+      filter: grayscale(100%) sepia(100%) hue-rotate(180deg) saturate(300%) brightness(0.5);
+    }
     .icon-footer-img{
       position: absolute;
       width: 100px

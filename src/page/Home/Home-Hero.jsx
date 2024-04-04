@@ -72,7 +72,7 @@ function HomeHero() {
       </p>
       <div className="btn-container-home">
         <a
-          href="https://www.linkedin.com/in/samuel-pouard-645672184/"
+          href="https://www.linkedin.com/in/samuel-p-645672184/"
           target="_blank"
           rel="noreferrer"
           className="btn-home"
