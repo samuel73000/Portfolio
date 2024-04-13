@@ -10,17 +10,27 @@
   padding: 20%;
   height: 90px;
   background: url(../Asset/background.jpg) no-repeat;
-
+ .container-h1-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
   .h1-home {
-    font-size: 3.7rem;
+    width: 100%;
+    font-size: 3rem;
     font-weight: 800;
-    margin-left: 20%;
+    margin-left: 7%;
     display: inline-block;
     position: relative;
   }
-
+.container-p-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   .p-home {
-    margin-left: 8vw;
+    width: 100%;
+    margin-top: 50px;  
     margin-bottom: 50px;
     font-size: 30px;
   }
@@ -51,8 +61,8 @@
   }
 
   .gif-dev-home {
-    margin-bottom: -10%;
-    margin-left: 9%;
+    margin-bottom: -7%;
+    margin-left: -2%;
     width: 100px;
     height: 100px;
   }
@@ -82,12 +92,15 @@
     height: 90px;
   
     .h1-home {
-      font-size: 2rem;
-      margin-left: 20%;
+      font-size: 1.8rem;
+      margin-left: 8%;
     }
   
     .p-home {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
+      width:100%;
+      margin-top: 10px;
+      margin-left: 7%;
     }
     .btn-container-home {
       .btn-home {
@@ -103,9 +116,11 @@
     }
   
     .gif-dev-home {
+      display: none;
       width: 70px;
       height: 70px;
-    margin-left: 4%;
+    margin-left: 0%;
+    margin-bottom: -10%;
     }
   }
 }
@@ -118,7 +133,7 @@
   
     .h1-home {
       font-size: 1rem;
-      margin-left: 20%;
+      margin-left: 8%;
     }
   
     .p-home {

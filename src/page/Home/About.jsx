@@ -12,7 +12,7 @@ function About() {
   return (
     <section className="container-about" id="about">
       <div className="container-me">
-        <h2 className="title-me">ABOUT ME</h2>
+        <h2 className="title-me">À PROPOS DE MOI</h2>
         <div className="border"></div>
         <p className=" p-me">
           Vous trouverez ici plus d'informations sur moi, ce que je fais et mes
@@ -24,7 +24,7 @@ function About() {
         className={`container-know ${inViewKnow ? "animate" : ""}`}
         ref={refKnow}
       >
-        <h3 className="title-know">Get to know me!</h3>
+        <h3 className="title-know">Faisons connaissance !</h3>
         <p className="p-know">
           Je suis un passionné de développement web basé à Lyon, âgé de 24 ans.
           Formé chez OpenClassrooms, j'ai acquis de solides compétences en
@@ -47,7 +47,7 @@ function About() {
         className={`container-skills ${inViewSkills ? "animate" : ""}`}
         ref={refSkills}
       >
-        <h3 className="title-skills">My Skills</h3>
+        <h3 className="title-skills">Mes compétences</h3>
         <div className="display-skills">
           <div className="skills">HTML</div>
           <div className="skills">CSS</div>

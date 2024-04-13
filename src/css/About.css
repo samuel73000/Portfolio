@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@keyframes coeur {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes contact {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+@keyframes modalprojects {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes modalprojectsclose {
+  0% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+@keyframes ScrollTop {
+  0% {
+    opacity: 0;
+    margin-bottom: -100%;
+  }
+  100% {
+    opacity: 1;
+    margin-bottom: 0%;
+  }
+}
+@keyframes animBtnHome {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animAboutKnow {
+  0% {
+    opacity: 0;
+    right: 30%;
+  }
+  100% {
+    opacity: 1;
+    right: 0%;
+  }
+}
+@keyframes animAboutSkill {
+  0% {
+    opacity: 0;
+    left: 30%;
+  }
+  100% {
+    opacity: 1;
+    left: 0%;
+  }
+}
+.container-about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 10% 10% 10%;
+}
+.container-about .container-me {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.container-about .container-me .border {
+  margin-left: 37.5vw;
+  margin-top: 1vw;
+  border-top: 7px solid #0404B4;
+  border-radius: 5px;
+  width: 5vw;
+}
+.container-about .container-me .title-me {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+}
+.container-about .container-me .p-me {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.container-about .container-know {
+  margin-right: 100px;
+  width: 42%;
+  position: relative;
+}
+.container-about .container-know .title-know {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin-bottom: 25px;
+}
+.container-about .container-know .p-know {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  font-family: "Roboto", sans-serif;
+}
+.container-about .container-know .btn-know {
+  margin-left: 13vw;
+  font-size: 1.4rem;
+  background-color: #0404B4;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  height: 50px;
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  box-shadow: 3px 3px 3px black;
+  transition: all 0.6s ease-out;
+}
+.container-about .container-know .btn-know:hover {
+  background-color: white;
+  color: #0404B4;
+  box-shadow: 0px 1px 10px 3px #0404B4;
+}
+.container-about .container-know.animate {
+  animation: animAboutKnow 2s ease-in-out;
+}
+.container-about .container-skills {
+  width: 42%;
+  position: relative;
+}
+.container-about .container-skills .title-skills {
+  display: flex;
+  justify-content: center;
+  margin-left: -8rem;
+  font-size: 1.7rem;
+}
+.container-about .container-skills .display-skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.container-about .container-skills .skills {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 3px 3px 3px #0404B4;
+  transition: all 0.5s ease-out;
+}
+.container-about .container-skills .skills:hover {
+  background-color: white;
+  color: #0404B4;
+  box-shadow: 0px 2px 20px 3px #0404B4;
+  background-image: url(../Asset/background.jpg);
+}
+.container-about .container-skills.animate {
+  animation: animAboutSkill 2s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .container-about {
+    flex-wrap: wrap;
+    margin: 5% 5% 10% 5%;
+  }
+  .container-about .container-me {
+    margin-bottom: 50px;
+  }
+  .container-about .container-me .border {
+    width: 5vw;
+    margin-left: 43vw;
+  }
+  .container-about .container-me .p-me {
+    font-size: 1.35rem;
+  }
+  .container-about .container-know .title-know {
+    font-size: 1.5rem;
+    margin-left: -80px;
+  }
+  .container-about .container-know .p-know {
+    font-size: 1.2rem;
+    height: 350px;
+    overflow: auto;
+  }
+  .container-about .container-know .btn-know {
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 20%;
+  }
+  .container-about .container-skills {
+    position: relative;
+  }
+  .container-about .container-skills .title-skills {
+    font-size: 1.5rem;
+  }
+  .container-about .container-skills .skills {
+    padding: 0.9rem 0.7rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 768px) {
+  .container-about {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5% 5% 10% 5%;
+  }
+  .container-about .container-me {
+    margin-bottom: 50px;
+  }
+  .container-about .container-me .border {
+    width: 8vw;
+    margin-left: 41vw;
+  }
+  .container-about .container-me .title-me {
+    font-size: 1rem;
+  }
+  .container-about .container-me .p-me {
+    font-size: 0.8rem;
+  }
+  .container-about .container-know {
+    width: 100%;
+  }
+  .container-about .container-know .title-know {
+    font-size: 1rem;
+    margin-left: 1%;
+  }
+  .container-about .container-know .p-know {
+    font-size: 0.8rem;
+    margin-bottom: -100px;
+  }
+  .container-about .container-know .btn-know {
+    margin-left: 33vw;
+    height: 20px;
+    font-size: 0.8rem;
+    padding: 5px 20px 5px 20px;
+  }
+  .container-about .container-skills {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    margin-left: 6%;
+  }
+  .container-about .container-skills .title-skills {
+    margin-left: -2.5rem;
+    font-size: 1rem;
+  }
+  .container-about .container-skills .skills {
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1.1rem;
+    font-size: 0.8rem;
+  }
+}

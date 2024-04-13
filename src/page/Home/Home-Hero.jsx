@@ -37,14 +37,14 @@ function HomeHero() {
         className="gif-dev-home"
         alt="gif d'un dev"
       ></img>
-      <div>
+      <div className="container-h1-home">
         <h1 aria-label="HEY" className="h1-home">
           <TypewriterComponent
             options={{ autoStart: true }}
             onInit={(typewriter) => {
               typewriter
                 .start()
-                .typeString("Bonjour,Je m'appelle Samuel Pouard.")
+                .typeString("Bonjour, Je m'appelle Samuel Pouard.")
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
@@ -66,11 +66,13 @@ function HomeHero() {
           />
         </h1>
       </div>
+      <div className="container-p-home">
       <p className="p-home">
         Un développeur Web axé sur le Frontend, freelance, construisant
         l'interface des sites Web et des applications Web qui mène au succès
         global du produit.
       </p>
+      </div>
       <div className="btn-container-home">
         <a
           href="https://www.linkedin.com/in/samuel-p-645672184/"

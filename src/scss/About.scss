@@ -12,11 +12,11 @@
     margin-bottom: 50px;
     width: 100%;
     .border {
-      margin-left: 38vw;
+      margin-left: 37.5vw;
       margin-top: 1vw;
       border-top: 7px solid $main-color;
       border-radius: 5px;
-      width: 3.2vw;
+      width: 5vw;
     }
     .title-me {
       @include centerAlign;
@@ -119,7 +119,7 @@
       margin-bottom: 50px;
       .border {
         width: 5vw;
-        margin-left: 42vw;
+        margin-left: 43vw;
       }
       .p-me {
         font-size: 1.35rem;
@@ -128,14 +128,18 @@
     .container-know { 
       .title-know {
         font-size: 1.5rem;
+        margin-left: -80px;
       }
       .p-know {
         font-size: 1.2rem;
+        height: 350px;
+  overflow: auto;
       }
   
       .btn-know {
         height: 50px;
         padding: 5px 20px 5px 20px;
+        margin-left: 20%;
       }
     }
     .container-skills {
@@ -167,8 +171,8 @@
     .container-me {
       margin-bottom: 50px;
       .border {
-        width: 7vw;
-        margin-left: 40vw;
+        width: 8vw;
+        margin-left: 41vw;
       }
       .title-me {
         font-size: 1rem;
@@ -182,10 +186,11 @@
       width: 100%;
       .title-know {
         font-size: 1rem;
+        margin-left: 1%;
       }
       .p-know {
         font-size: 0.8rem;
-        margin-bottom: 15px;
+        margin-bottom: -100px;
       }
   
       .btn-know {
