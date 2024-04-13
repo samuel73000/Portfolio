@@ -269,19 +269,19 @@ a {
     margin-bottom: -100px;
   }
   .container-about .container-know .btn-know {
-    margin-left: 33vw;
+    margin-left: 35vw;
     height: 20px;
     font-size: 0.8rem;
     padding: 5px 20px 5px 20px;
   }
   .container-about .container-skills {
     margin-top: 50px;
-    width: 100%;
+    width: 99%;
     position: relative;
     margin-left: 6%;
   }
   .container-about .container-skills .title-skills {
-    margin-left: -2.5rem;
+    margin-left: -1.5rem;
     font-size: 1rem;
   }
   .container-about .container-skills .skills {
