@@ -255,7 +255,8 @@ a {
     font-size: 0.8rem;
   }
   .form-contact .btn-contact {
-    margin-left: 49vw;
+    margin-left: 46vw;
     font-size: 1rem;
+    width: 23%;
   }
 }
