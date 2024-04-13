@@ -112,7 +112,10 @@ top: 70px;
         margin-bottom: 15px;
         letter-spacing: 2px;
       }
-
+.div-3-footer{
+  display: flex;
+  flex-direction: row;
+}
       .icon-footer {
         font-size: 0.9rem;
         margin-right: 20px;
@@ -120,9 +123,8 @@ top: 70px;
       .icon-footer-img{
         width: 60px;
         height: 15px;
-  position: absolute;
-  top: 80px;
-  right: 35%;
+  position: relative;
+  margin-top: 10px;
       }
     }
 

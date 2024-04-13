@@ -15,6 +15,7 @@ function Footer() {
       </div>
       <div className="div-2-footer">
         <h2 className="title-2-footer">SOCIAL</h2>
+        <div className="div-3-footer">
         <a
           href="https://www.linkedin.com/in/samuel-p-645672184/"
           target="_blank"
@@ -31,6 +32,7 @@ function Footer() {
         >
           <FontAwesomeIcon icon={faGithub} size="2xl" />
         </a>
+        </div>
         <a
           href="https://www.malt.fr/profile/yousam"
           target="_blank"
@@ -43,6 +45,7 @@ function Footer() {
             className="icon-footer-img"
           />
         </a>
+        
       </div>
       <p className="copyright-footer">
         © Copyright 2024. Made by Pouard Samuel
