@@ -8,8 +8,9 @@ function Footer() {
       <div className="div-1-footer">
         <h2 className="title-1-footer">Pouard Samuel</h2>
         <p className="p-1-footer">
-          A Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product
+          Un développeur Web axé sur le Frontend, freelance, construisant
+          l'interface des sites Web et des applications Web qui mène au succès
+          global du produit.
         </p>
       </div>
       <div className="div-2-footer">
@@ -30,13 +31,17 @@ function Footer() {
         >
           <FontAwesomeIcon icon={faGithub} size="2xl" />
         </a>
-        <a 
-        href="https://www.malt.fr/profile/yousam"
-        target="_blank"
-        rel="noreferrer"
-        className="icon-footer"
+        <a
+          href="https://www.malt.fr/profile/yousam"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-footer"
         >
-          <img src={require("../../Asset/malt_logo_white.png")} alt="logomalt" className="icon-footer-img" />
+          <img
+            src={require("../../Asset/malt_logo_white.png")}
+            alt="logomalt"
+            className="icon-footer-img"
+          />
         </a>
       </div>
       <p className="copyright-footer">

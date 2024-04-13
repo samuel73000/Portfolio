@@ -5,13 +5,13 @@ import propsProject from "../../Data/PropsProject";
 function Projects() {
   return (
     <section id="projects">
-      <h2 className="title-projects">PROJECTS</h2>
+      <h2 className="title-projects">PROJETS</h2>
       <div className="border"></div>
       <p className="p-projects">
-        Here, you will find some of my personal projects and those completed for
-        my OpenClassrooms training
+        Ici, vous trouverez certains de mes projets personnels ainsi que ceux
+        réalisés dans le cadre de ma formation chez OpenClassrooms.
       </p>
-      
+
       <div className="container-projects">
         <ComponentProject
           img={propsProject.img[0]}

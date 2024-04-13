@@ -21,13 +21,13 @@ function Header() {
         </div>
           <ul className="container-nav">
             <a href="#home">
-              <li className="header-li">Home</li>
+              <li className="header-li">Accueil</li>
               </a>
               <a href="#about">
-              <li className="header-li">About</li>
+              <li className="header-li">À propos</li>
               </a>
               <a href="#projects">
-              <li className="header-li">Projects</li>
+              <li className="header-li">Projets</li>
               </a>
               <a href="#contact">
               <li className="header-li">Contact</li>
@@ -41,13 +41,13 @@ function Header() {
         <nav className="container-nav-mobile">
           <ul className="ul-mobile" >
           <a href="#home">
-              <li className="li-mobile">Home</li>
+              <li className="li-mobile">Accueil</li>
               </a>
               <a href="#about">
-              <li className="li-mobile">About</li>
+              <li className="li-mobile">À propos</li>
               </a>
               <a href="#projects">
-              <li className="li-mobile" >Projects</li>
+              <li className="li-mobile" >Projets</li>
               </a>
               <a href="#contact">
               <li className="li-mobile">Contact</li>

@@ -40,35 +40,36 @@ function HomeHero() {
       <div>
         <h1 aria-label="HEY" className="h1-home">
           <TypewriterComponent
-            options={{ autoStart:true }}
+            options={{ autoStart: true }}
             onInit={(typewriter) => {
               typewriter
-              .start()
-                .typeString("HEY, I'M POUARD SAMUEL.")
+                .start()
+                .typeString("Bonjour,Je m'appelle Samuel Pouard.")
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Front-End React Developer.")
+                .typeString("Je suis développeur front-end freelance.")
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Located in the city of Lyon, France.")
+                .typeString("Faites défiler pour voir mes projets réalisés.")
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Scroll to see my projects.")
+                .typeString("Vous pouvez me contacter sur LinkedIn ou Malt.")
                 .pauseFor(2500)
-                .deleteAll()
-                typewriter
-                .typeString("HEY, I'M POUARD SAMUEL.")
-                .pauseFor(2500)
+                .deleteAll();
+              typewriter
+                .typeString("Bonjour,Je m'appelle Samuel Pouard.")
+                .pauseFor(2500);
             }}
           />
         </h1>
       </div>
       <p className="p-home">
-        A Frontend focused Web Developer building the Frontend of Websites and
-        Web Applications that leads to the success of the overall product
+        Un développeur Web axé sur le Frontend, freelance, construisant
+        l'interface des sites Web et des applications Web qui mène au succès
+        global du produit.
       </p>
       <div className="btn-container-home">
         <a

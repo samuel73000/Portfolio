@@ -6,7 +6,6 @@ function Contact() {
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
-  
 
   return (
     <section className="container-contact" id="contact">
@@ -14,33 +13,32 @@ function Contact() {
         CONTACT
       </button>
       <p className="p-contact">
-        Feel free to Contact me by submitting the form below and I will get back
-        to you as soon as possible
+        N'hésitez pas à me contacter en soumettant le formulaire ci-dessous, et
+        je vous répondrai dès que possible.
       </p>
 
       {isOpen && (
         <form name="contact" method="post" className="form-contact">
-
-
           <input type="hidden" name="form-name" value="contact" />
 
           <label for="name" className="label-contact">
-            Name:
+          Nom :
           </label>
           <input
             type="text"
             name="name"
-            placeholder=" Enter Your Name"
+            placeholder=" Entrez votre nom :"
             className="input-contact"
           />
 
           <label for="email" className="label-contact">
-            Email:
+          adresse e-mail :
           </label>
           <input
             type="email"
             name="email"
-            placeholder=" Enter Your Email"
+            placeholder=" 
+            Entrez votre adresse e-mail :"
             className="input-contact"
           />
 
@@ -49,12 +47,13 @@ function Contact() {
           </label>
           <textarea
             name="message"
-            placeholder=" Enter Your Message"
+            placeholder=" 
+            Entrez votre message :"
             className="textarea-contact"
           ></textarea>
 
           <button type="submit" className="btn-contact">
-            send
+          Envoyer
           </button>
         </form>
       )}
