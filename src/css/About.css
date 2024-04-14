@@ -275,6 +275,9 @@ a {
     font-size: 0.8rem;
     padding: 5px 20px 5px 20px;
   }
+  .container-about .container-know.animate {
+    animation: none;
+  }
   .container-about .container-skills {
     margin-top: 50px;
     width: 99%;
@@ -290,5 +293,8 @@ a {
     margin-bottom: 1rem;
     margin-right: 1.1rem;
     font-size: 0.8rem;
+  }
+  .container-about .container-skills.animate {
+    animation: none;
   }
 }
