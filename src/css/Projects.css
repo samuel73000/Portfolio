@@ -372,7 +372,7 @@ a {
     margin-bottom: 0px;
   }
   .container-title-modal .p-modal-height {
-    height: 80%;
+    height: 75%;
     overflow: hidden;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
