@@ -369,10 +369,10 @@ a {
   .container-title-modal .p-modal {
     margin-top: 10px;
     font-size: 0.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .container-title-modal .p-modal-height {
-    height: 95%;
+    height: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
