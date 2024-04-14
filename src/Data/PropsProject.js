@@ -66,7 +66,7 @@ const propsProject = {
   tech: [
     require("../Asset/tech/html.png"),
     require("../Asset/tech/css.png"),
-    require("../Asset/tech/js.png"),
+    require("../Asset/tech/js-2.png"),
     require("../Asset/tech/React.png"),
     require("../Asset/tech/sass.png"),
     require("../Asset/tech/jest.png"),
