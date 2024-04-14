@@ -17,7 +17,7 @@ function Footer() {
         <h2 className="title-2-footer">SOCIAL</h2>
         <div className="div-3-footer">
         <a
-          href="https://www.linkedin.com/in/samuel-p-645672184/"
+          href="https://www.linkedin.com/in/samuel-pouard-645672184/"
           target="_blank"
           rel="noreferrer"
           className="icon-footer"
