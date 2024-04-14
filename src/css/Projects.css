@@ -369,7 +369,7 @@ a {
   .container-title-modal .p-modal {
     margin-top: 10px;
     font-size: 0.8rem;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
   }
   .container-title-modal .p-modal-height {
     height: 100%;
