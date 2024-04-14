@@ -302,6 +302,12 @@
       font-size: 0.8rem;
       margin-bottom: 0px;
     }
+    .p-modal-height {
+      height: 80%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      overflow-wrap: break-word;
+  }
   }
   .container-tech-modal {
     left:4%;
