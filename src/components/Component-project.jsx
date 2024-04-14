@@ -61,9 +61,9 @@ function ComponentProject(props) {
             <p className="p-modal"><b>Objectives :</b> {props.objectives}</p>
           </div>
           <div className="container-tech-modal">
-            <img src={props.tech1} />
-            <img src={props.tech2} />
-            <img src={props.tech3} />
+            <img src={props.tech1} alt=""/>
+            <img src={props.tech2} alt=""/>
+            <img src={props.tech3} alt=""/>
           </div>
           <div className="container-btn-modal">
             <a
