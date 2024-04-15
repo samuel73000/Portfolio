@@ -40,7 +40,7 @@ function Footer() {
           className="icon-footer"
         >
           <img
-            src={require("../../Asset/malt_logo_white.png")}
+            src={require("../../Asset/malt_logo_white.webp")}
             alt="logomalt"
             className="icon-footer-img"
           />

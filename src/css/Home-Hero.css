@@ -94,7 +94,7 @@ a {
   flex-direction: column;
   padding: 20%;
   height: 90px;
-  background: url(../Asset/background.jpg) no-repeat;
+  background: url(../Asset/background.webp) no-repeat;
 }
 .container-home .container-h1-home {
   display: flex;

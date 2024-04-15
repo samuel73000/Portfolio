@@ -189,7 +189,7 @@ a {
   background-color: white;
   color: #0404B4;
   box-shadow: 0px 2px 20px 3px #0404B4;
-  background-image: url(../Asset/background.jpg);
+  background-image: url(../Asset/background.webp);
 }
 .container-about .container-skills.animate {
   animation: animAboutSkill 2s ease-in-out;
