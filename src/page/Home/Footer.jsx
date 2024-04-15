@@ -22,7 +22,9 @@ function Footer() {
           rel="noreferrer"
           className="icon-footer"
         >
+          <p className="seo">hfghff</p>
           <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+          
         </a>
         <a
           href="https://github.com/samuel73000"
@@ -30,7 +32,9 @@ function Footer() {
           rel="noreferrer"
           className="icon-footer"
         >
+          <p className="seo">hfg</p>
           <FontAwesomeIcon icon={faGithub} size="2xl" />
+          
         </a>
         </div>
         <a
