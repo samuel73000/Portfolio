@@ -20,18 +20,26 @@ function Header() {
         <p className="header-p">Pouard Samuel</p>
         </div>
           <ul className="container-nav">
+            <li>
             <a href="#home">
               <li className="header-li">Accueil</li>
               </a>
+              </li>
+              <li>
               <a href="#about">
               <li className="header-li">À propos</li>
               </a>
+              </li>
+              <li>
               <a href="#projects">
               <li className="header-li">Projets</li>
               </a>
+              </li>
+              <li>
               <a href="#contact">
               <li className="header-li">Contact</li>
               </a>
+              </li>
           </ul>
           <button className="header-modal" onClick={toggleMobileMenu}>
           <FontAwesomeIcon icon={faBars} className="header-bars" />
