@@ -129,18 +129,32 @@ a {
   border: 0px;
   background-color: #0404B4;
   color: white;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 800;
+  font-size: 1.1rem;
   width: 100px;
   height: 30px;
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
   box-shadow: 3px 3px 3px black;
   transition: all 0.6s ease-out;
-  animation: animBtnHome 2.5s ease-in-out;
+  animation: animBtnHome 1.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container-home .btn-container-home .icon-home {
+  font-size: xx-large;
   margin-right: 5px;
+}
+.container-home .btn-container-home .btn-home-img {
+  height: 55px;
+  margin-left: -25%;
+  width: 50px;
+}
+.container-home .btn-container-home .btn-home-img-malt2 {
+  margin-left: -25%;
+  height: 40px;
+  width: 50px;
 }
 .container-home .btn-container-home .btn-home:hover {
   background-color: white;
@@ -199,6 +213,16 @@ a {
     font-size: 1rem;
     margin-right: 5px;
     margin-bottom: 3px;
+  }
+  .container-home .btn-container-home .btn-home-img {
+    height: 45px;
+    margin-left: -25%;
+    width: 30px;
+  }
+  .container-home .btn-container-home .btn-home-img-malt2 {
+    margin-left: -25%;
+    height: 25px;
+    width: 30px;
   }
   .container-home .gif-dev-home {
     display: none;
