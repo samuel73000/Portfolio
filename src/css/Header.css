@@ -117,6 +117,7 @@ a {
   width: 50%;
   gap: 10%;
   justify-content: flex-end;
+  list-style: none;
 }
 .container-header .container-nav .header-li {
   font-size: 20px;
