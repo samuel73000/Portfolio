@@ -124,7 +124,7 @@ a {
   font-weight: 500;
 }
 .container-header .container-nav .header-li:hover {
-  color: #0404B4;
+  color: #0404b4;
   animation: coeur 1s infinite;
   transition: 0.3s;
 }
@@ -200,7 +200,7 @@ a {
     color: white;
   }
   .container-nav-mobile .li-mobile:hover {
-    color: #0404B4;
+    color: #0404b4;
     animation: coeur 1s infinite;
     transition: 0.3s;
   }

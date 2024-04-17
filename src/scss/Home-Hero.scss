@@ -10,11 +10,11 @@
   padding: 20%;
   height: 90px;
   background: url(../Asset/background.webp) no-repeat;
- .container-h1-home{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
+  .container-h1-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .h1-home {
     width: 100%;
     font-size: 3rem;
@@ -23,14 +23,14 @@
     display: inline-block;
     position: relative;
   }
-.container-p-home{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .container-p-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .p-home {
     width: 100%;
-    margin-top: 50px;  
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 30px;
   }
@@ -58,12 +58,12 @@
       font-size: xx-large;
       margin-right: 5px;
     }
-    .btn-home-img{
+    .btn-home-img {
       height: 55px;
       margin-left: -25%;
       width: 50px;
     }
-    .btn-home-img-malt2{
+    .btn-home-img-malt2 {
       margin-left: -25%;
       height: 40px;
       width: 50px;
@@ -101,19 +101,19 @@
   display: block;
   z-index: 1;
 }
-@media (max-width: 1024px ) { 
+@media (max-width: 1024px) {
   .container-home {
     padding: 20%;
     height: 90px;
-  
+
     .h1-home {
       font-size: 1.8rem;
       margin-left: 8%;
     }
-  
+
     .p-home {
       font-size: 1.1rem;
-      width:100%;
+      width: 100%;
       margin-top: 10px;
       margin-left: 7%;
     }
@@ -128,47 +128,44 @@
         margin-right: 5px;
         margin-bottom: 3px;
       }
-     
-      .btn-home-img{
+
+      .btn-home-img {
         height: 45px;
         margin-left: -25%;
-        width:30px;
+        width: 30px;
       }
-      .btn-home-img-malt2{
+      .btn-home-img-malt2 {
         margin-left: -25%;
         height: 25px;
         width: 30px;
       }
-
-
     }
-  
+
     .gif-dev-home {
       display: none;
       width: 70px;
       height: 70px;
-    margin-left: 0%;
-    margin-bottom: -10%;
+      margin-left: 0%;
+      margin-bottom: -10%;
     }
   }
 }
 
-
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
   .container-home {
     padding: 20%;
     height: 90px;
-  
+
     .h1-home {
       font-size: 1rem;
       margin-left: 8%;
     }
-  
+
     .p-home {
       font-size: 0.8rem;
       margin-bottom: 30px;
     }
-    
+
     .btn-container-home {
       .btn-home {
         font-size: 0.8rem;
@@ -182,12 +179,12 @@
         margin-bottom: 3px;
       }
     }
-  
+
     .gif-dev-home {
       width: 50px;
       height: 50px;
-    margin-left: 0%;
-    margin-bottom: -11%;
+      margin-left: 0%;
+      margin-bottom: -11%;
     }
   }
   .scroll-to-top {
@@ -198,5 +195,4 @@
     padding: 5px 6px;
     z-index: 1;
   }
-
- }
+}

@@ -56,11 +56,11 @@
       font-family: "Roboto", sans-serif;
       max-height: 200px;
       width: 14.7vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 8; /* Nombre de lignes maximum avant de couper */
-  -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 8; /* Nombre de lignes maximum avant de couper */
+      -webkit-box-orient: vertical;
     }
   }
 }
@@ -140,9 +140,9 @@
   display: flex;
   justify-content: flex-start;
   position: relative;
-  bottom:16%;
+  bottom: 16%;
   gap: 10px;
-  
+
   width: 50px;
   height: 50px;
 }
@@ -170,25 +170,24 @@
     @include btn-hover;
   }
 }
-@media (max-width: 1024px ) {
-
+@media (max-width: 1024px) {
   .title-projects {
     font-size: 1.5rem;
   }
   .border {
     margin-left: 48.4vw;
   }
-  
+
   .p-projects {
     font-size: 1.4rem;
     margin-left: 50px;
     margin-right: 40px;
   }
-  
+
   .container-projects {
     display: flex;
     flex-direction: column;
-  
+
     .div-projects {
       display: flex;
       flex-direction: column;
@@ -200,7 +199,7 @@
         height: 25rem;
         margin-left: 11vw;
       }
-      
+
       .title-article-projects {
         font-size: 1.5rem;
         margin-bottom: 5px;
@@ -211,9 +210,9 @@
       }
     }
   }
-  
+
   //   !!!!!!!!!!!!!!!!!!!!!!MODAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
+
   .modal-projects {
     width: 80%;
   }
@@ -223,12 +222,9 @@
   .container-btn-modal {
     bottom: 20%;
   }
- }
+}
 
-
-@media (max-width: 768px ) { 
-
-
+@media (max-width: 768px) {
   .title-projects {
     font-size: 1rem;
     margin-left: 6vw;
@@ -237,17 +233,17 @@
     margin-left: 48vw;
     width: 9vw;
   }
-  
+
   .p-projects {
     font-size: 0.85rem;
     margin-left: 70px;
     margin-right: 40px;
   }
-  
+
   .container-projects {
     display: flex;
     flex-direction: column;
-  
+
     .div-projects {
       display: flex;
       flex-direction: column;
@@ -259,7 +255,7 @@
         height: 11rem;
         margin-left: 10vw;
       }
-      
+
       .title-article-projects {
         font-size: 1rem;
         margin-bottom: 5px;
@@ -269,20 +265,19 @@
       }
     }
   }
-  
+
   //   !!!!!!!!!!!!!!!!!!!!!!MODAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
+
   .modal-projects {
     width: 80%;
   }
-  
-    .close-modal {
-      font-size: 1rem;
-      height: 10px;
-      padding: 1px 8px 1px 8px;
-    }
-    
-  
+
+  .close-modal {
+    font-size: 1rem;
+    height: 10px;
+    padding: 1px 8px 1px 8px;
+  }
+
   .container-title-modal {
     display: flex;
     flex-direction: column;
@@ -307,10 +302,10 @@
       overflow: hidden;
       text-overflow: ellipsis;
       overflow-wrap: break-word;
-  }
+    }
   }
   .container-tech-modal {
-    left:4%;
+    left: 4%;
     width: 50px;
     height: 30px;
     bottom: 22%;
@@ -319,15 +314,13 @@
     justify-content: center;
     gap: 10%;
     margin-right: 0%;
-  
+
     .btn-modal {
       font-size: 0.8rem;
       font-weight: 700;
       height: 22px;
       border: 0px;
       padding: 5px 10px 2px 10px;
-
-      
     }
   }
 }

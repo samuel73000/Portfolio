@@ -27,15 +27,13 @@
       @include centerAlign;
       font-size: 1.25rem;
       margin-top: 20px;
-      font-family: 'Roboto', sans-serif;
-      
+      font-family: "Roboto", sans-serif;
     }
   }
   .container-know {
     margin-right: 100px;
     width: 42%;
     position: relative;
-    
 
     .title-know {
       @include centerAlign;
@@ -47,7 +45,7 @@
       @include centerAlign;
       font-size: 1.2rem;
       margin-bottom: 35px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
     }
 
     .btn-know {
@@ -73,7 +71,7 @@
   .container-skills {
     width: 42%;
     position: relative;
-    
+
     .title-skills {
       @include centerAlign;
       margin-left: -8rem;
@@ -90,7 +88,7 @@
       margin-bottom: 1.5rem;
       margin-right: 1.5rem;
       font-size: 1.2rem;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       background: rgba(153, 153, 153, 0.2);
       border-radius: 5px;
       font-weight: 600;
@@ -110,8 +108,7 @@
   }
 }
 
-@media (max-width: 1024px ) {
-
+@media (max-width: 1024px) {
   .container-about {
     flex-wrap: wrap;
     margin: 5% 5% 10% 5%;
@@ -125,7 +122,7 @@
         font-size: 1.35rem;
       }
     }
-    .container-know { 
+    .container-know {
       .title-know {
         font-size: 1.5rem;
         margin-left: -80px;
@@ -133,9 +130,9 @@
       .p-know {
         font-size: 1.2rem;
         height: 350px;
-  overflow: auto;
+        overflow: auto;
       }
-  
+
       .btn-know {
         height: 50px;
         padding: 5px 20px 5px 20px;
@@ -144,7 +141,7 @@
     }
     .container-skills {
       position: relative;
-      
+
       .title-skills {
         font-size: 1.5rem;
       }
@@ -155,15 +152,11 @@
         font-size: 1.1rem;
         font-weight: 500;
       }
-      
     }
-   
   }
- }
+}
 
-
-@media (max-width: 768px ) {
-
+@media (max-width: 768px) {
   .container-about {
     flex-direction: column;
     flex-wrap: wrap;
@@ -180,10 +173,9 @@
       .p-me {
         font-size: 0.85rem;
         margin-left: 3vw;
-        
       }
     }
-    .container-know { 
+    .container-know {
       width: 100%;
       .title-know {
         font-size: 1rem;
@@ -193,7 +185,7 @@
         font-size: 0.85rem;
         margin-bottom: -75px;
       }
-  
+
       .btn-know {
         margin-left: 35vw;
         height: 20px;
@@ -208,8 +200,8 @@
       margin-top: 50px;
       width: 99%;
       position: relative;
-     margin-left: 6%;
-      
+      margin-left: 6%;
+
       .title-skills {
         margin-left: -1.5rem;
         font-size: 1rem;
@@ -220,11 +212,9 @@
         margin-right: 1.1rem;
         font-size: 0.8rem;
       }
-      
     }
     .container-skills.animate {
       animation: none;
     }
-   
   }
- }
+}

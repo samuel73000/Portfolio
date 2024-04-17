@@ -22,7 +22,7 @@ function Contact() {
           <input type="hidden" name="form-name" value="contact" />
 
           <label for="name" className="label-contact">
-          Nom :
+            Nom :
           </label>
           <input
             type="text"
@@ -32,7 +32,7 @@ function Contact() {
           />
 
           <label for="email" className="label-contact">
-          adresse e-mail :
+            adresse e-mail :
           </label>
           <input
             type="email"
@@ -53,7 +53,7 @@ function Contact() {
           ></textarea>
 
           <button type="submit" className="btn-contact">
-          Envoyer
+            Envoyer
           </button>
         </form>
       )}

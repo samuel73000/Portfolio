@@ -97,7 +97,7 @@ a {
 .border {
   margin-left: 48.2vw;
   margin-top: 1vw;
-  border-top: 7px solid #0404B4;
+  border-top: 7px solid #0404b4;
   border-radius: 5px;
   width: 3.5vw;
 }
@@ -166,7 +166,7 @@ a {
   color: black;
   justify-content: center;
   overflow: hidden;
-  border-left: 3px #0404B4 solid;
+  border-left: 3px #0404b4 solid;
   animation: modalprojects 0.5s ease-in-out;
   transform-origin: right;
   transition: all 0.6s ease-in-out;
@@ -184,7 +184,7 @@ a {
 }
 .container-close-modal .close-modal {
   font-size: 1rem;
-  background-color: #0404B4;
+  background-color: #0404b4;
   color: white;
   border-radius: 5px;
   height: 25px;
@@ -194,8 +194,8 @@ a {
 }
 .container-close-modal .close-modal:hover {
   background-color: white;
-  color: #0404B4;
-  box-shadow: 0px 1px 10px 3px #0404B4;
+  color: #0404b4;
+  box-shadow: 0px 1px 10px 3px #0404b4;
 }
 
 .container-title-modal {
@@ -244,7 +244,7 @@ a {
 }
 .container-btn-modal .btn-modal {
   font-size: 1rem;
-  background-color: #0404B4;
+  background-color: #0404b4;
   color: white;
   font-weight: 700;
   border-radius: 5px;
@@ -256,8 +256,8 @@ a {
 }
 .container-btn-modal .btn-modal:hover {
   background-color: white;
-  color: #0404B4;
-  box-shadow: 0px 1px 10px 3px #0404B4;
+  color: #0404b4;
+  box-shadow: 0px 1px 10px 3px #0404b4;
 }
 
 @media (max-width: 1024px) {

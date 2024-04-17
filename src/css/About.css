@@ -100,7 +100,7 @@ a {
 .container-about .container-me .border {
   margin-left: 37.5vw;
   margin-top: 1vw;
-  border-top: 7px solid #0404B4;
+  border-top: 7px solid #0404b4;
   border-radius: 5px;
   width: 5vw;
 }
@@ -137,7 +137,7 @@ a {
 .container-about .container-know .btn-know {
   margin-left: 13vw;
   font-size: 1.4rem;
-  background-color: #0404B4;
+  background-color: #0404b4;
   color: white;
   font-weight: 700;
   border-radius: 5px;
@@ -149,8 +149,8 @@ a {
 }
 .container-about .container-know .btn-know:hover {
   background-color: white;
-  color: #0404B4;
-  box-shadow: 0px 1px 10px 3px #0404B4;
+  color: #0404b4;
+  box-shadow: 0px 1px 10px 3px #0404b4;
 }
 .container-about .container-know.animate {
   animation: animAboutKnow 2s ease-in-out;
@@ -182,13 +182,13 @@ a {
   border-radius: 5px;
   font-weight: 600;
   color: black;
-  box-shadow: 3px 3px 3px #0404B4;
+  box-shadow: 3px 3px 3px #0404b4;
   transition: all 0.5s ease-out;
 }
 .container-about .container-skills .skills:hover {
   background-color: white;
-  color: #0404B4;
-  box-shadow: 0px 2px 20px 3px #0404B4;
+  color: #0404b4;
+  box-shadow: 0px 2px 20px 3px #0404b4;
   background-image: url(../Asset/background.webp);
 }
 .container-about .container-skills.animate {

@@ -1,6 +1,6 @@
 import Header from "./page/Home/Header";
 import Footer from "./page/Home/Footer";
-import HomeHero from"./page/Home/Home-Hero";
+import HomeHero from "./page/Home/Home-Hero";
 import About from "./page/Home/About";
 import Projects from "./page/Home/Projects";
 import Contact from "./page/Home/Contact";

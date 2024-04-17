@@ -10,14 +10,12 @@ Pour commencer, assurez-vous d'avoir [Node.js](https://nodejs.org/) installé su
 
 git clone https://github.com/samuel73000/Portfolio
 
-
 2. Accédez au répertoire du projet :
 
 cd portfolio
 
 3. Installez les dépendances :
-npm install
-
+   npm install
 
 ## Scripts Disponibles
 
@@ -88,6 +86,3 @@ N'hésitez pas à explorer le code source pour en savoir plus sur moi, mes proje
 ---
 
 © Pouard Samuel
-
-
-

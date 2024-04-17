@@ -9,7 +9,6 @@
     transform: scale(1);
   }
 }
-
 @keyframes contact {
   0% {
     opacity: 0;
@@ -20,7 +19,6 @@
     transform: scaleY(1);
   }
 }
-
 @keyframes modalprojects {
   0% {
     opacity: 0;
@@ -41,7 +39,6 @@
     transform: scaleX(0);
   }
 }
-
 @keyframes ScrollTop {
   0% {
     opacity: 0;

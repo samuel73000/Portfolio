@@ -4,8 +4,8 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import TypewriterComponent from "typewriter-effect";
 import React, { useState, useEffect, useRef } from "react";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import maltSVG from "../../Asset/malt.svg"; 
-import maltHoverSVG from "../../Asset/malt2.svg"; 
+import maltSVG from "../../Asset/malt.svg";
+import maltHoverSVG from "../../Asset/malt2.svg";
 
 function HomeHero() {
   const [showButton, setShowButton] = useState(false);
@@ -105,7 +105,7 @@ function HomeHero() {
           <FontAwesomeIcon icon={faGithub} size="2xl" className="icon-home" />
           GitHub
         </a>
-     
+
         <a
           href="https://www.malt.fr/profile/yousam"
           target="_blank"
@@ -114,7 +114,11 @@ function HomeHero() {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <img src={isHovered ? maltHoverSVG : maltSVG} alt="Malt" className={isHovered ? "btn-home-img-malt2" : "btn-home-img"} />
+          <img
+            src={isHovered ? maltHoverSVG : maltSVG}
+            alt="Malt"
+            className={isHovered ? "btn-home-img-malt2" : "btn-home-img"}
+          />
           Malt
         </a>
       </div>
@@ -130,4 +134,3 @@ function HomeHero() {
 }
 
 export default HomeHero;
-

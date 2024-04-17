@@ -28,11 +28,10 @@ function ComponentProject(props) {
       setIsOpen(true);
     }
   };
-  
 
   return (
     <div className="div-projects">
-      <a href ="###"className="btn-modal-projects" onClick={toggleModal}>
+      <a href="###" className="btn-modal-projects" onClick={toggleModal}>
         <img src={props.img} className="img-projects" alt="screen projects" />
       </a>
 
@@ -56,14 +55,20 @@ function ComponentProject(props) {
           <div className="container-title-modal">
             <h3 className="title-modal">{props.title}</h3>
             <img src={props.banner} className="banner-modal" alt="banner" />
-            <p className="p-modal"><b>Client :</b> {props.client}</p>
-            <p className="p-modal"><b>Presentation :</b> {props.presentation}</p>
-            <p className="p-modal p-modal-height"><b>Objectives :</b> {props.objectives}</p>
+            <p className="p-modal">
+              <b>Client :</b> {props.client}
+            </p>
+            <p className="p-modal">
+              <b>Presentation :</b> {props.presentation}
+            </p>
+            <p className="p-modal p-modal-height">
+              <b>Objectives :</b> {props.objectives}
+            </p>
           </div>
           <div className="container-tech-modal">
-            <img src={props.tech1} alt=""/>
-            <img src={props.tech2} alt=""/>
-            <img src={props.tech3} alt=""/>
+            <img src={props.tech1} alt="" />
+            <img src={props.tech2} alt="" />
+            <img src={props.tech3} alt="" />
           </div>
           <div className="container-btn-modal">
             <a
