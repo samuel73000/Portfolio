@@ -25,22 +25,22 @@ function Header() {
         <ul className="container-nav">
           <li>
             <a href="#home">
-              <li className="header-li">Accueil</li>
+              <p className="header-li">Accueil</p>
             </a>
           </li>
           <li>
             <a href="#about">
-              <li className="header-li">À propos</li>
+              <p className="header-li">À propos</p>
             </a>
           </li>
           <li>
             <a href="#projects">
-              <li className="header-li">Projets</li>
+              <p className="header-li">Projets</p>
             </a>
           </li>
           <li>
             <a href="#contact">
-              <li className="header-li">Contact</li>
+              <p className="header-li">Contact</p>
             </a>
           </li>
         </ul>
