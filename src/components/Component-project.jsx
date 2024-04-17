@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -6,8 +6,9 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 function ComponentProject(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [closingAnimation, setClosingAnimation] = useState(false);
+  const modalRef = useRef(null);
 
-  const toggleModal = () => {
+  const toggleModal = useCallback(() => {
     if (isOpen) {
       document.body.classList.remove("modal-open");
       setClosingAnimation(true);
@@ -27,12 +28,39 @@ function ComponentProject(props) {
       document.body.classList.add("modal-open");
       setIsOpen(true);
     }
-  };
+  }, [isOpen]);
+
+  const handleCloseModal = useCallback(
+    (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        toggleModal();
+      }
+    },
+    [toggleModal]
+  );
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener("click", handleCloseModal);
+    } else {
+      document.removeEventListener("click", handleCloseModal);
+    }
+    return () => {
+      document.removeEventListener("click", handleCloseModal);
+    };
+  }, [isOpen, handleCloseModal]);
 
   return (
     <div className="div-projects">
-      <a href="###" className="btn-modal-projects" onClick={toggleModal}>
-        <img src={props.img} className="img-projects" alt="screen projects" />
+      <a
+        href="###"
+        className="btn-modal-projects"
+        onClick={(e) => {
+          e.stopPropagation();
+          toggleModal();
+        }}
+      >
+        <img src={props.img} className="img-projects" alt={props.alt} />
       </a>
 
       <div>
@@ -43,6 +71,7 @@ function ComponentProject(props) {
 
       {isOpen && (
         <div
+          ref={modalRef}
           className={`modal-projects ${
             closingAnimation ? "modal-close-animation" : ""
           }`}

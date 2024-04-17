@@ -16,7 +16,7 @@ function Header() {
           <a href="#home">
             <img
               src={require("../../Asset/gif-header.gif")}
-              alt="Logo"
+              alt="Logo-du-site"
               className="header-logo"
             />
           </a>

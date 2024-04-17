@@ -25,6 +25,7 @@ function Projects() {
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[1]}
           banner={propsProject.banner[0]}
+          alt={propsProject.alt[0]}
         />
 
         <ComponentProject
@@ -39,6 +40,7 @@ function Projects() {
           tech1={propsProject.tech[0]}
           tech2={propsProject.tech[4]}
           banner={propsProject.banner[1]}
+          alt={propsProject.alt[1]}
         />
 
         <ComponentProject
@@ -54,6 +56,7 @@ function Projects() {
           tech2={propsProject.tech[1]}
           tech3={propsProject.tech[2]}
           banner={propsProject.banner[2]}
+          alt={propsProject.alt[2]}
         />
 
         <ComponentProject
@@ -68,6 +71,7 @@ function Projects() {
           tech1={propsProject.tech[3]}
           tech2={propsProject.tech[4]}
           banner={propsProject.banner[3]}
+          alt={propsProject.alt[3]}
         />
 
         <ComponentProject
@@ -83,6 +87,7 @@ function Projects() {
           tech2={propsProject.tech[4]}
           tech3={propsProject.tech[6]}
           banner={propsProject.banner[4]}
+          alt={propsProject.alt[4]}
         />
 
         <ComponentProject
@@ -98,6 +103,7 @@ function Projects() {
           tech2={propsProject.tech[4]}
           tech3={propsProject.tech[5]}
           banner={propsProject.banner[5]}
+          alt={propsProject.alt[5]}
         />
       </div>
     </section>

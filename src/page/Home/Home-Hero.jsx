@@ -7,6 +7,7 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import maltSVG from "../../Asset/malt.svg";
 import maltHoverSVG from "../../Asset/malt2.svg";
 
+
 function HomeHero() {
   const [showButton, setShowButton] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -116,7 +117,7 @@ function HomeHero() {
         >
           <img
             src={isHovered ? maltHoverSVG : maltSVG}
-            alt="Malt"
+            alt="logo-Malt"
             className={isHovered ? "btn-home-img-malt2" : "btn-home-img"}
           />
           Malt

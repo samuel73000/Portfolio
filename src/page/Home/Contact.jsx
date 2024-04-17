@@ -25,6 +25,7 @@ function Contact() {
             Nom :
           </label>
           <input
+          id="name"
             type="text"
             name="name"
             placeholder=" Entrez votre nom :"
@@ -35,6 +36,7 @@ function Contact() {
             adresse e-mail :
           </label>
           <input
+          id="email"
             type="email"
             name="email"
             placeholder=" 
@@ -46,6 +48,7 @@ function Contact() {
             Message:
           </label>
           <textarea
+          id="message"
             name="message"
             placeholder=" 
             Entrez votre message :"

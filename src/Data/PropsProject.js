@@ -80,6 +80,14 @@ const propsProject = {
     require("../Asset/banner/banner_argent.webp"),
     require("../Asset/banner/banner-724.webp"),
   ],
+  alt: [
+    "bookie-img",
+   "ohmyfood-img",
+    "nina carducci-img",
+    "kasa-img",
+    "argentBank-img",
+    "724event-img",
+  ],
 };
 
 export default propsProject;
