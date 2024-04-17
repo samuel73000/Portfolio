@@ -39,9 +39,14 @@ function About() {
           Malt et LinkedIn pour discuter de projets web passionnants. Merci de
           visiter mon portfolio !
         </p>
-        <a className="btn-know" href="#contact">
-          CONTACT
-        </a>
+        
+        <div class="button-container-1">
+          <a href="#contact">
+      <span class="mas">Contact</span>
+    <button id='work' type="button" name="Hover">Contact</button>
+    </a>
+  </div>
+
       </div>
       <div
         className={`container-skills ${inViewSkills ? "animate" : ""}`}

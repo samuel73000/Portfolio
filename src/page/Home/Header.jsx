@@ -22,25 +22,25 @@ function Header() {
           </a>
           <p className="header-p">Pouard Samuel</p>
         </div>
-        <ul className="container-nav">
+        <ul className="container-nav SMN_effect-6">
           <li>
-            <a href="#home">
-              <p className="header-li">Accueil</p>
+            <a href="#home" className="header-li" data-hover="Accueil">
+              Accueil
             </a>
           </li>
           <li>
-            <a href="#about">
-              <p className="header-li">À propos</p>
+            <a href="#about" className="header-li" data-hover="Présentation">
+            Présentation
             </a>
           </li>
           <li>
-            <a href="#projects">
-              <p className="header-li">Projets</p>
+            <a href="#projects" className="header-li" data-hover="Projets">
+              Projets
             </a>
           </li>
           <li>
-            <a href="#contact">
-              <p className="header-li">Contact</p>
+            <a href="#contact" className="header-li" data-hover="Contact">
+              Contact
             </a>
           </li>
         </ul>
