@@ -1,16 +1,15 @@
 import "../../scss/Footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import { useTranslation } from "react-i18next";
 function Footer() {
+  const { t } = useTranslation();
   return (
     <section className="container-footer">
       <div className="div-1-footer">
         <h2 className="title-1-footer">Pouard Samuel</h2>
         <p className="p-1-footer">
-          Un développeur Web axé sur le Frontend, freelance, construisant
-          l'interface des sites Web et des applications Web qui mène au succès
-          global du produit.
+        {t("footer.p1Footer")}
         </p>
       </div>
       <div className="div-2-footer">

@@ -1,7 +1,9 @@
 import "../../scss/Contact.scss";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => {
     setIsOpen(!isOpen);
@@ -17,8 +19,7 @@ function Contact() {
       </div>
 
       <p className="p-contact">
-        N'hésitez pas à me contacter en soumettant le formulaire ci-dessous, et
-        je vous répondrai dès que possible.
+      {t("Contact.pContact")}
       </p>
 
       {isOpen && (
@@ -26,43 +27,41 @@ function Contact() {
           <input type="hidden" name="form-name" value="contact" />
 
           <label for="name" className="label-contact">
-            Nom :
+          {t("Contact.name")}
           </label>
           <input
             id="name"
             type="text"
             name="name"
-            placeholder=" Entrez votre nom :"
+            placeholder={t("Contact.holdername")}
             className="input-contact"
           />
 
           <label for="email" className="label-contact">
-            adresse e-mail :
+          {t("Contact.email")}
           </label>
           <input
             id="email"
             type="email"
             name="email"
-            placeholder=" 
-            Entrez votre adresse e-mail :"
+            placeholder={t("Contact.holderemail")}
             className="input-contact"
           />
 
           <label for="message" className="label-contact">
-            Message:
+          {t("Contact.message")}
           </label>
           <textarea
             id="message"
             name="message"
-            placeholder=" 
-            Entrez votre message :"
+            placeholder={t("Contact.holdermessage")}
             className="textarea-contact"
           ></textarea>
 
           <div class="button-container-1 btn-contact">
-            <span class="mas">Envoyer</span>
+            <span class="mas">{t("Contact.envoyer")}</span>
             <button id="work" type="submit" name="Hover">
-              Envoyer
+            {t("Contact.envoyer")}
             </button>
           </div>
         </form>

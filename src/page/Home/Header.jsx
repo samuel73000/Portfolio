@@ -2,7 +2,9 @@ import "../../scss/Header.scss";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from 'react-i18next';
 function Header() {
+  const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -25,22 +27,22 @@ function Header() {
         <ul className="container-nav SMN_effect-6">
           <li>
             <a href="#home" className="header-li" data-hover="Accueil">
-              Accueil
+            {t('Header.liAccueil')}
             </a>
           </li>
           <li>
             <a href="#about" className="header-li" data-hover="Présentation">
-            Présentation
+            {t('Header.liPrésentation')}
             </a>
           </li>
           <li>
             <a href="#projects" className="header-li" data-hover="Projets">
-              Projets
+            {t('Header.liProjets')}
             </a>
           </li>
           <li>
             <a href="#contact" className="header-li" data-hover="Contact">
-              Contact
+            {t('Header.liContact')}
             </a>
           </li>
         </ul>
@@ -52,16 +54,16 @@ function Header() {
         <nav className="container-nav-mobile">
           <ul className="ul-mobile">
             <a href="#home">
-              <li className="li-mobile">Accueil</li>
+              <li className="li-mobile">{t('Header.liAccueil')}</li>
             </a>
             <a href="#about">
-              <li className="li-mobile">À propos</li>
+              <li className="li-mobile">{t('Header.liPrésentation')}</li>
             </a>
             <a href="#projects">
-              <li className="li-mobile">Projets</li>
+              <li className="li-mobile">{t('Header.liProjets')}</li>
             </a>
             <a href="#contact">
-              <li className="li-mobile">Contact</li>
+              <li className="li-mobile">{t('Header.liContact')}</li>
             </a>
           </ul>
         </nav>

@@ -6,9 +6,11 @@ import React, { useState, useEffect, useRef } from "react";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import maltSVG from "../../Asset/malt.svg";
 import maltHoverSVG from "../../Asset/malt2.svg";
+import { useTranslation } from 'react-i18next';
 
 
 function HomeHero() {
+  const { t } = useTranslation();
   const [showButton, setShowButton] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const homeHeroRef = useRef();
@@ -58,23 +60,23 @@ function HomeHero() {
             onInit={(typewriter) => {
               typewriter
                 .start()
-                .typeString("Bonjour, Je m'appelle Samuel Pouard.")
+                .typeString(t('HomeHero.typeString1'))
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Je suis développeur front-end freelance.")
+                .typeString(t('HomeHero.typeString2'))
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Faites défiler pour voir mes projets réalisés.")
+                .typeString(t('HomeHero.typeString3'))
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Vous pouvez me contacter sur LinkedIn ou Malt.")
+                .typeString(t('HomeHero.typeString4'))
                 .pauseFor(2500)
                 .deleteAll();
               typewriter
-                .typeString("Bonjour,Je m'appelle Samuel Pouard.")
+                .typeString(t('HomeHero.typeString1'))
                 .pauseFor(2500);
             }}
           />
@@ -82,9 +84,7 @@ function HomeHero() {
       </div>
       <div className="container-p-home">
         <p className="p-home">
-          Un développeur Web axé sur le Frontend, freelance, construisant
-          l'interface des sites Web et des applications Web qui mène au succès
-          global du produit.
+        {t('HomeHero.pHome')}
         </p>
       </div>
       <div className="btn-container-home">
@@ -95,7 +95,7 @@ function HomeHero() {
           className="btn-home"
         >
           <FontAwesomeIcon icon={faLinkedin} size="2xl" className="icon-home" />
-          Linkedin
+          LinkedIn
         </a>
         <a
           href="https://github.com/samuel73000"
