@@ -195,6 +195,9 @@ i18n.use(initReactI18next).init({
   },
   lng: "fr", // Langue par défaut
   fallbackLng: "en", // Langue de repli si la traduction n'est pas disponible
+  detection: {
+    order: ["navigator", "cookie", "localStorage", "htmlTag", "path", "subdomain"],
+  },
   interpolation: {
     escapeValue: false, // Ne pas échapper les valeurs HTML
   },
