@@ -196,11 +196,19 @@ i18n.use(initReactI18next).init({
   lng: "fr", // Langue par défaut
   fallbackLng: "en", // Langue de repli si la traduction n'est pas disponible
   detection: {
-    order: ["navigator", "cookie", "localStorage", "htmlTag", "path", "subdomain"],
+    order: [
+      "navigator",
+      "cookie",
+      "localStorage",
+      "htmlTag",
+      "path",
+      "subdomain",
+    ],
   },
   interpolation: {
     escapeValue: false, // Ne pas échapper les valeurs HTML
   },
 });
+console.log("i18n initialized with language:", i18n.language);
 
 export default i18n;
